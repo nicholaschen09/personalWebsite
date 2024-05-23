@@ -1,0 +1,19 @@
+.about {
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.profilePic {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+}

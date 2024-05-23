@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import About from './components/About.js';
 import Home from './components/Home.js';
 import Projects from './components/Projects.js';
+import Contact from './components/Contact.js';
+import Experience from './components/Experience.js';
 import Blog from './components/Blog.js';
-import Miscellaneous from './components/Miscellaneous.js';
-import Design from './components/Design.js';
-import Engineering from './components/Engineering.js';
 
 function App() {
   return (
@@ -15,13 +14,19 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/home">Home</Link>
             </li>
             <li>
               <Link to="/about">About</Link>
             </li>
             <li>
               <Link to="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/experience">Experience</Link>
             </li>
             <li>
               <Link to="/blogs">Blogs</Link>
@@ -34,9 +39,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blogs" element={<Blog />} />
-          <Route path="/projects/miscellaneous" element={<Miscellaneous />} />
-          <Route path="/projects/design" element={<Design />} />
-          <Route path="/projects/engineering" element={<Engineering />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

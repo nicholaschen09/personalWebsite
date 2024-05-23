@@ -5,8 +5,6 @@ import Home from './components/Home.js';
 import Projects from './components/Projects.js';
 import Blog from './components/Blog.js';
 import Miscellaneous from './components/Miscellaneous.js';
-import Design from './components/Design.js';
-import Engineering from './components/Engineering.js';
 
 function App() {
   return (
@@ -35,8 +33,6 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/blogs" element={<Blog />} />
           <Route path="/projects/miscellaneous" element={<Miscellaneous />} />
-          <Route path="/projects/design" element={<Design />} />
-          <Route path="/projects/engineering" element={<Engineering />} />
         </Routes>
       </div>
     </Router>

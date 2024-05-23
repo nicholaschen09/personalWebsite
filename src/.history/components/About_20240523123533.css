@@ -1,0 +1,12 @@
+.about {
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profilePic {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
