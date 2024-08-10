@@ -1,10 +1,18 @@
-/* src/components//Home.css */
-.projects {
+.engineering {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
-.projects button {
+.projects-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    justify-content: center;
+    padding: 0;
+    margin: 20px; 
+}
+
+.engineering button {
     border: 1px solid #000000; /* Grey border */
     padding: 4px 8px; /* Smaller padding */
     background-color: #fff; /* White background */
@@ -13,10 +21,10 @@
     font-size: 14px; /* Smaller font size */
     transition: background-color 0.3s, color 0.3s;
     border-radius: 5px; /* Rounded corners */
-    margin: 6px; /* Spacing between buttons */
+    margin: 10px; /* Spacing between buttons */
 }
 
-.projects button:hover {
+.engineering button:hover {
     background-color: #a7a7a7; /* Grey background on hover */
     color: #fff; /* White text on hover */
 }

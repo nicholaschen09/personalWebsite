@@ -13,7 +13,7 @@
     font-size: 14px; /* Smaller font size */
     transition: background-color 0.3s, color 0.3s;
     border-radius: 5px; /* Rounded corners */
-    margin: 6px; /* Spacing between buttons */
+    margin: 10px; /* Spacing between buttons */
 }
 
 .projects button:hover {

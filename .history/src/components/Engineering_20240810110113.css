@@ -13,18 +13,18 @@
 }
 
 .engineering button {
-    border: 1px solid #000000; /* Grey border */
+    border: 1px solid #6c757d; /* Grey border */
     padding: 4px 8px; /* Smaller padding */
     background-color: #fff; /* White background */
-    color: #000000; /* Grey text */
+    color: #6c757d; /* Grey text */
     cursor: pointer;
     font-size: 14px; /* Smaller font size */
     transition: background-color 0.3s, color 0.3s;
     border-radius: 5px; /* Rounded corners */
-    margin: 6px; /* Spacing between buttons */
+    margin: 10px; /* Spacing between buttons */
 }
 
 .engineering button:hover {
-    background-color: #a7a7a7; /* Grey background on hover */
+    background-color: #6c757d; /* Grey background on hover */
     color: #fff; /* White text on hover */
 }

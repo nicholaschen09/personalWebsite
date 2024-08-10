@@ -1,0 +1,25 @@
+.engineering {
+    text-align: center;
+    padding: 30px;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    justify-content: center;
+    padding: 0;
+    margin: 20px; 
+}
+
+.customButton {
+    border: 2px solid #c64040; /* Black stroke */
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.customButton:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+}
