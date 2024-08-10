@@ -1,6 +1,7 @@
-/* src/components//Home.css */
-.projects {
+.design {
     text-align: center;
     padding: 20px;
 }
-
+.button {
+    margin: 10px;
+}

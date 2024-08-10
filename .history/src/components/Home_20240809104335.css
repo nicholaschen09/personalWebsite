@@ -5,12 +5,8 @@
     width: 700px;
     margin-left: auto;
     margin-right: auto;
+    background-color: grey;
 }
-
-body {
-    background-color: rgb(222, 220, 220);
-}
-
 .DinnerImage {
     width: 70%;
     height: 70%;

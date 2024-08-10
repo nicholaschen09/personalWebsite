@@ -10,8 +10,8 @@ const About = () => {
                 program at earl haig secondary school. i'm currently studying @ the university of 
                 waterloo for systems design engineering and just finished up my internship with RBC as
                 an innovation developer this summer.</p>
-
-            <p>email: n224chen@uwaterloo.ca</p>
+                
+            <p>email: nic95857@gmail.com</p>
             <p>thank you for taking the time to learn more about me.</p>
             <img src={process.env.PUBLIC_URL + '/file.jpg'}alt="profilePic" className="profilePic" />
             </div>

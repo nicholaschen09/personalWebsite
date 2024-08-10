@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Engineering.css'; // Ensure you have this CSS file in your project
 
 const Engineering = () => {
@@ -10,7 +9,7 @@ const Engineering = () => {
             <div className="projects-container">
                 <Link to="/engineering/BasketBin"><button>BasketBin</button></Link>
                 <Link to="/engineering/Academates"><button>Academates</button></Link>
-                <Link to="/engineering/BoomBox"><button>BoomBox</button></Link>
+                <Link to="/projects/miscellaneous"><button>miscellaneous</button></Link>
             </div>
         </div>
     );

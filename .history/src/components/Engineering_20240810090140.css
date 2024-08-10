@@ -1,0 +1,33 @@
+.engineering {
+    text-align: center;
+    padding: 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column; /* Aligns projects in a single column */
+    align-items: start; /* Aligns projects to the start of the container */
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.project {
+    margin: 10px 0; /* Adds vertical spacing between projects */
+    color: #007bff; /* Example link color, adjust as needed */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 18px; /* Adjust font size as needed */
+    color: #808080;
+}
+
+.project:hover {
+    text-decoration: underline; /* Adds underline on hover for visual feedback */
+}
+
+.links-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (if the container has a specified height) */
+    flex-direction: column; /* Stack links vertically */
+    height: 100%; /* Adjust based on your layout */
+  }

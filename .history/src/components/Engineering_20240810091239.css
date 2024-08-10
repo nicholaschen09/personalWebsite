@@ -4,7 +4,7 @@
 }
 
 .project-link {
-    margin: 40px;
+    margin: 10px;
     display: inline-block;
 }
 
@@ -14,7 +14,7 @@
     align-items: center;
     padding: 0;
     text-align: center;
-    margin: 20px; 
+    margin: 30px; 
 }
 
 .project {

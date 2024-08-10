@@ -1,0 +1,16 @@
+.engineering {
+    text-align: center;
+    padding: 20px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between project columns */
+    flex-wrap: wrap; /* Allows items to wrap into the next row if the container's width is too small */
+}
+
+.project {
+    width: calc(33.333% - 20px); /* Adjusts the width of each project to fit 3 in a row, accounting for some margin */
+    margin: 10px; /* Adds margin around each project for spacing */
+    /* Add more styles here as needed (e.g., padding, background-color) */
+}

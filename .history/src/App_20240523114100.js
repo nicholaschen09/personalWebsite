@@ -7,7 +7,6 @@ import Blog from './components/Blog.js';
 import Miscellaneous from './components/Miscellaneous.js';
 import Design from './components/Design.js';
 import Engineering from './components/Engineering.js';
-import BasketBin from './components/BasketBin';
 
 function App() {
   return (
@@ -38,7 +37,6 @@ function App() {
           <Route path="/projects/miscellaneous" element={<Miscellaneous />} />
           <Route path="/projects/design" element={<Design />} />
           <Route path="/projects/engineering" element={<Engineering />} />
-          <Route path="/projects/basketbin" element={<BasketBin />} />
         </Routes>
       </div>
     </Router>
