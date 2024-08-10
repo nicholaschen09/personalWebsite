@@ -17,6 +17,6 @@
 }
 
 .projects button:hover {
-    background-color: #a7a7a7; 
-    color: #fff;
+    background-color: #a7a7a7; /* Grey background on hover */
+    color: #fff; /* White text on hover */
 }

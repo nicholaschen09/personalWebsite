@@ -1,18 +1,10 @@
-.engineering {
+/* src/components//Home.css */
+.projects {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
-.projects-container {
-    display: flex;
-    align-items: center;
-    flex-direction: row; 
-    justify-content: center;
-    padding: 0;
-    margin: 20px; 
-}
-
-.engineering button {
+.projects button {
     border: 1px solid #000000; 
     padding: 4px 8px; 
     background-color: #fff; 
@@ -24,7 +16,7 @@
     margin: 5px; 
 }
 
-.engineering button:hover {
-    background-color: #a7a7a7; 
+.projects button:hover {
+    background-color: #a7a7a7; /* Grey background on hover */
     color: #fff;
 }
