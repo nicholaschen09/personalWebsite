@@ -1,0 +1,41 @@
+.engineering {
+    text-align: center;
+    padding: 30px;
+}
+
+.project-link {
+    margin: 40px;
+    display: inline-block;
+    
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    padding: 0;
+    text-align: center;
+    margin: 20px; 
+    justify-content: center;
+}
+
+.project {
+    margin: 30px;
+    color: #343434;
+    text-decoration: none;
+    font-size: 18px;
+    
+    
+}
+
+.project:hover {
+    text-decoration: underline; 
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%; 
+    width: 100%;
+}
