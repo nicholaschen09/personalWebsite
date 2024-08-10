@@ -11,7 +11,7 @@ import BasketBin from './components/BasketBin';
 
 function App() {
   const linkStyle = {
-    color: 'black', // Define the color style for links
+    color: 'grey', // Define the color style for links
   };
 
   return (
