@@ -5,7 +5,6 @@ import TikTokViewPredictor from './TikTokViewPredictor';
 import Academates from './Academates';
 import Solidworks from './Solidworks';
 import Puzzle from './Puzzle';
-import DesignProject from './DesignProject.js';
 import './Engineering.css';
 
 const Engineering = () => {

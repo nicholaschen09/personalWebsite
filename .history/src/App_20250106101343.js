@@ -14,7 +14,6 @@ import VolunTrack from './components/VolunTrack.js';
 import Photography from './components/Photography.js';
 import Solidworks from './components/Solidworks.js';
 import Puzzle from './components/Puzzle.js';
-import DesignProject from './components/DesignProject.js';
 import './App.css'; // Import the CSS file
 
 function App() {
@@ -56,7 +55,7 @@ function App() {
           <Route path="/projects/design/voluntrack" element={<VolunTrack />} />
           <Route path="/projects/miscellaneous/photography" element={<Photography />} />
           <Route path="/projects/engineering/puzzle" element={<Puzzle />} />
-          <Route path="/projects/engineering/designproject" element={<Puzzle />} />
+          <Route path="/projects/engineering/" element={<Puzzle />} />
         </Routes>
       </div>
     </Router>

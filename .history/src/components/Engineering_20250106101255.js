@@ -5,7 +5,6 @@ import TikTokViewPredictor from './TikTokViewPredictor';
 import Academates from './Academates';
 import Solidworks from './Solidworks';
 import Puzzle from './Puzzle';
-import DesignProject from './DesignProject.js';
 import './Engineering.css';
 
 const Engineering = () => {
@@ -26,7 +25,6 @@ const Engineering = () => {
                 <Link to="tiktokviewpredictor"><button>tiktok view predictor</button></Link>
                 <Link to="solidworks"><button>engineering portfolio</button></Link>
                 <Link to="puzzle"><button>puzzle project</button></Link>
-                <Link to="designproject"><button>design project</button></Link>
             </div>
 
             <Routes>
@@ -35,7 +33,7 @@ const Engineering = () => {
                 <Route path="tiktokviewpredictor" element={<TikTokViewPredictor />} />
                 <Route path="solidworks" element={<Solidworks />} />
                 <Route path="puzzle" element={<Puzzle />} />
-                <Route path="designproject" element={<DesignProject />} />
+                <Route path="puzz" element={<DesignProject />} />
             </Routes>
         </div>
     );
