@@ -58,6 +58,9 @@ const DesignProject = () => {
 
                     <p>Our SYDE 161 project combines technical innovation with storytelling to create an interactive installation that bridges the gap between day and night. By reconnecting people with the stars in an inclusive and environmentally conscious way, this project inspires wonder and strengthens community bonds. Approving its implementation on campus will leave a lasting impact on the University of Waterloo, encouraging reflection, connection, and exploration for years to come.</p>
 
+                    <h3>Link to FigJam</h3>
+                    <p><a href="https://www.figma.com/board/m63yGJeyzfUCMbqtY3c16f/SYDE-161---Systems-Mapping-Diagram-S1G1?node-id=0-1&t=s9YNodh2zpIhvu4J-1" target="_blank" rel="noopener noreferrer">SYDE 161 - Systems Mapping Diagram S1G1</a></p>
+
                     <h3>Written Summaries</h3>
                     <h4>Faucet + Info Links</h4>
                     <p>The Rate of Technological Advancements faucet controls the flow from Technological Advancements into Galvanized Steel and Bendable Concrete, increasing Resources, while Construction decreases Resources. It also informs the stock of Bamboo. The information boxes pointing to the Rate of Technological Advancements refer to fields relevant to the outflow of the faucet. Metallurgy, mining, agriculture, and composites refer to the makeup of the materials utilised while manufacturing deals with producing these materials. Ergonomics and human factors affect all outputs as humans are integral to any process. Finally, assembly refers to the combination of the outputs to create the installation.</p>
