@@ -19,7 +19,7 @@ const Engineering = () => {
                 Back
             </button>
             <div className="engineering">
-                <h1>Engineering Projects</h1>
+                <h1>Engineering projects</h1>
                 <p>all my school/side projects</p>
                 <Link to="basketbin"><button>basketbin</button></Link>
                 <Link to="academates"><button>academates</button></Link>
