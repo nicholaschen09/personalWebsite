@@ -11,7 +11,7 @@ const BasketBin = () => {
                 Back
             </button>
             <div className="basketbin">
-                <h1>BasketBin</h1>
+                <h1>basketin</h1>
                 <div className="content">
                     <p>This is BasketBin. Our innovative waste management solution.</p>
 

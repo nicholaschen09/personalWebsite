@@ -11,7 +11,7 @@ const Solidworks = () => {
                 Back
             </button>
             <div className="tiktokviewpredictor">
-                <h1>Engineering Portfolio</h1>
+                <h1>Engi</h1>
                 <div className="content">
                     <p>Welcome to the TikTok View Predictor project page. This is where you'll find information about our innovative tool for predicting TikTok video views.</p>
 

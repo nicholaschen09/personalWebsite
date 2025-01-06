@@ -12,7 +12,7 @@ const VolunTrack = () => {
                 Back
             </button>
             <div className="voluntrack">
-                <h1>VolunTrack</h1>
+                <h1>Voluntrack</h1>
                 <div className="content">
                     <p>Welcome to the VolunTrack project page. This is where you'll find information about our innovative volunteer management solution.</p>
 

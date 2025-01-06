@@ -23,7 +23,7 @@ const Engineering = () => {
                 <Link to="basketbin"><button>basketbin</button></Link>
                 <Link to="academates"><button>academates</button></Link>
                 <Link to="tiktokviewpredictor"><button>tiktok view predictor</button></Link>
-                <Link to="solidworks"><button>engineering portfolio</button></Link>
+                <Link to="solidworks"><button>engineportfolio</button></Link>
                 <Link to="puzzle"><button>puzzle project</button></Link>
             </div>
 

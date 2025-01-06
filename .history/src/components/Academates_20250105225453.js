@@ -7,7 +7,7 @@ const Academates = () => {
     };
     return (
         <div className="center-wrapper">
-            <button className="back-button" onClick={handleGoBack}>
+            <button classNsame="back-button" onClick={handleGoBack}>
                 Back
             </button>
             <div className="academates">
