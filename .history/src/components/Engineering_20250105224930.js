@@ -3,9 +3,9 @@ import { Link, Routes, Route } from 'react-router-dom';
 import BasketBin from './BasketBin';
 import TikTokViewPredictor from './TikTokViewPredictor';
 import Academates from './Academates';
-import Solidworks from './Solidworks';
-import Puzzle from './Puzzle';
-import './Engineering.css';
+import Solidworks from './Solidworks'; 
+import Puzzle from './Pu'
+import './Engineering.css'; 
 
 const Engineering = () => {
     const handleGoBack = () => {
@@ -24,7 +24,6 @@ const Engineering = () => {
                 <Link to="academates"><button>academates</button></Link>
                 <Link to="tiktokviewpredictor"><button>tiktok view predictor</button></Link>
                 <Link to="solidworks"><button>portfolio</button></Link>
-                <Link to="puzzle"><button>puzzle project</button></Link>
             </div>
 
             <Routes>
@@ -32,7 +31,6 @@ const Engineering = () => {
                 <Route path="academates" element={<Academates />} />
                 <Route path="tiktokviewpredictor" element={<TikTokViewPredictor />} />
                 <Route path="solidworks" element={<Solidworks />} />
-                <Route path="puzzle" element={<Puzzle />} />
             </Routes>
         </div>
     );

@@ -54,7 +54,7 @@ function App() {
           <Route path="/projects/engineering/tiktokviewpredictor" element={<TikTokViewPredictor />} />
           <Route path="/projects/design/voluntrack" element={<VolunTrack />} />
           <Route path="/projects/miscellaneous/photography" element={<Photography />} />
-          <Route path="/projects/engineering/puzzle" element={<Puzzle />} />
+          <Route path="/projects/engineering/puzzle" element={<Puzz />} />
         </Routes>
       </div>
     </Router>
