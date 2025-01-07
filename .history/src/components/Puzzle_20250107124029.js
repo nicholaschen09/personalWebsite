@@ -27,7 +27,7 @@ const Puzzle = () => {
             <div className="puzzle">
                 <h1>Puzzle Project</h1>
                 <div className="content">
-                    <p>Welcome to the Puzzle project page. Here you'll find out more about the puzzle project my first year engineering group and I designed and built.</p>
+                    <p>Welcome to the Puzzle project page. This is where you'll find out more about the puzzle project my first year engineering group and I .</p>
 
                     <h3>About the Project</h3>
                     <p>The Bear Body SolidWorks Puzzle Piece project involves designing a 3D puzzle piece representing a bear's body using SolidWorks. The concept is to create an educational and engaging puzzle that, when assembled, forms a complete bear model. The design process includes creating detailed drawings and defining precise dimensions and constraints to ensure each piece fits together seamlessly. The puzzle piece is not only a fun activity but also serves as a learning tool to understand 3D modeling, spatial relationships, and the importance of precision in design. The final model is exported for 3D printing, allowing for physical testing and iteration to achieve a perfect fit. This project combines creativity with technical skills, resulting in a meaningful and interactive educational tool.</p>

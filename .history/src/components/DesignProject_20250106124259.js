@@ -2,7 +2,6 @@ import React from 'react';
 import './DesignProject.css';
 import domeImage from './domeImage.jpg'; // Example local image import
 import mirrorsImage from './mirror.png'; // Example local image import
-import cardboard from './cardboard.jpg';
 
 const DesignProject = () => {
     const handleGoBack = () => {
@@ -41,9 +40,9 @@ const DesignProject = () => {
                     <p>The second concept uses triangular mirrors positioned to reflect sunlight onto large walls. The reflective surfaces are obstructed except for gaps arranged in the patterns of constellations, creating striking light and shadow displays. The result is a beautiful interplay of design and function, offering an engaging way to experience the stars during the day.</p>
 
                     <h3>Eco-Friendly Materials</h3>
-
+                    
                     <p>Both designs incorporate eco-friendly materials to minimize environmental impact. Bamboo, known for its renewable qualities, provides a natural aesthetic and structural strength. Bendable concrete adds durability and versatility, while galvanized steel ensures resistance to weather with minimal maintenance. The installation’s placement on the V1 Green campus area aligns with sustainable building standards, emphasizing energy efficiency and resource conservation.</p>
-                    <img src={cardboard} alt="Cardboard" className="project-image" />
+
                     <h3>Accessibility and Inclusivity</h3>
                     <p>Our project was designed with accessibility in mind. Features like Braille-labeled poles allow visually impaired individuals to engage with the installation, creating a truly inclusive experience. By combining visual and tactile elements, the project encourages all users to explore the stars, sparking curiosity and fostering a sense of connection.</p>
 

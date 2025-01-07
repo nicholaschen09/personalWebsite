@@ -2,7 +2,7 @@ import React from 'react';
 import './DesignProject.css';
 import domeImage from './domeImage.jpg'; // Example local image import
 import mirrorsImage from './mirror.png'; // Example local image import
-import cardboard from './cardboard.jpg';
+improt
 
 const DesignProject = () => {
     const handleGoBack = () => {
