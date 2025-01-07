@@ -4,7 +4,6 @@ import domeImage from './domeImage.jpg'; // Example local image import
 import mirrorsImage from './mirror.png'; // Example local image import
 import cardboard from './cardboard.jpg';
 import rice from './rice.png';
-import domesketch from './domesketch.png';
 
 const DesignProject = () => {
     const handleGoBack = () => {
@@ -22,6 +21,7 @@ const DesignProject = () => {
                     <p>Our SYDE 161 project is an interactive public installation designed to reconnect the University of Waterloo community with the beauty and wonder of the night sky...</p>
 
                     {/* Example image integration */}
+                    <img src={domeImage} alt="Dome Design" className="project-image" />
 
                     <p>To meet this challenge, our team developed two innovative design concepts...</p>
 
@@ -46,9 +46,8 @@ const DesignProject = () => {
                     <p>Both designs incorporate eco-friendly materials to minimize environmental impact. Bamboo, known for its renewable qualities, provides a natural aesthetic and structural strength. Bendable concrete adds durability and versatility, while galvanized steel ensures resistance to weather with minimal maintenance. The installation’s placement on the V1 Green campus area aligns with sustainable building standards, emphasizing energy efficiency and resource conservation.</p>
                     <img src={cardboard} alt="Cardboard" className="project-image" />
                     <h3>Accessibility and Inclusivity</h3>
-                    <img src={domesketch} alt="domesketch" className="project-image" />
                     <p>Our project was designed with accessibility in mind. Features like Braille-labeled poles allow visually impaired individuals to engage with the installation, creating a truly inclusive experience. By combining visual and tactile elements, the project encourages all users to explore the stars, sparking curiosity and fostering a sense of connection.</p>
-                    <img src={domeImage} alt="Dome Design" className="project-image" />
+                    <img src={domeske} alt="pieces" className="project-image" />
                     <h3>Challenges and Solutions</h3>
                     <p>The journey from concept to design was not without its obstacles, requiring perseverance and innovative problem-solving. Selecting materials that balanced sustainability, strength, and cost-effectiveness necessitated careful research, detailed comparisons, and repeated testing to ensure the final choices would meet all design criteria. After extensive evaluation, bamboo and bendable concrete stood out as ideal options due to their renewability, durability, and versatility.</p>
 

@@ -2,7 +2,6 @@ import React from 'react';
 import './BasketBin.css';
 import h66 from './h66.JPG';
 import h65 from './h65.JPG';
-import h64 from './h64.JPG';
 
 
 const BasketBin = () => {

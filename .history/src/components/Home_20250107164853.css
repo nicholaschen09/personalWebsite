@@ -37,7 +37,7 @@ p {
 
 .navbar a {
     text-decoration: none;
-    color: #ff0090bb;
+    color: hsla(326, 100%, 50%, 0.733);
     font-size: 16px;
     padding: 10px 15px;
     transition: color 0.3s;

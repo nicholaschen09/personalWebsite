@@ -13,7 +13,6 @@ import model2 from './model2.png';
 import measure from './measure.png';
 import measurept2 from './measurept2.png';
 import sketch2 from './sketch2.png';
-import dome from './demo.png';
 
 const Puzzle = () => {
     const handleGoBack = () => {
@@ -64,7 +63,7 @@ const Puzzle = () => {
                     <p>One of the unique aspects of our project was the decision to assemble the structure without using glue or tape. This required an innovative approach to joinery and assembly. We designed interlocking joints and used friction fits to hold the pieces together securely. This method not only enhanced the aesthetic appeal of the final product but also made it easier to disassemble and transport.</p>
                     <img src={pieces1} alt="pieces1" className="project-image" />
                     <p></p>
-                    <img src={dome} alt="dome" className="project-image" />
+                    <img src={pieces} alt="pieces" className="project-image" />
                     <p>The sanding process was particularly important in achieving a precise fit. We used various grades of sandpaper to gradually refine the edges and surfaces of each piece. This attention to detail ensured that all components fit together perfectly without any gaps or misalignments. The final assembly was a testament to our craftsmanship and dedication to quality.</p>
                     <img src={pieces} alt="pieces" className="project-image" />
                     <p>Throughout the project, we encountered several challenges, such as ensuring the structural integrity of the design and achieving the desired level of precision. However, by leveraging the capabilities of SolidWorks and employing meticulous craftsmanship, we were able to overcome these obstacles and create a functional and visually appealing final product.</p>

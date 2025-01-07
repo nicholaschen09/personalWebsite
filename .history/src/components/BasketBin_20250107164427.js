@@ -1,9 +1,6 @@
 import React from 'react';
 import './BasketBin.css';
 import h66 from './h66.JPG';
-import h65 from './h65.JPG';
-import h64 from './h64.JPG';
-
 
 const BasketBin = () => {
     const handleGoBack = () => {
@@ -28,7 +25,7 @@ const BasketBin = () => {
                         <li>Optimized collection routes</li>
                         <li>Data analytics for waste management insights</li>
                     </ul>
-                    <img src={h64} alt="h64" className="project-image" />
+
                     <h3>GitHub Repository</h3>
                     <p>You can find the source code for this project on GitHub at: <a href="https://github.com/DerrickHa/ht6" target="_blank" rel="noopener noreferrer">BasketBin Github Repository</a>.</p>
 

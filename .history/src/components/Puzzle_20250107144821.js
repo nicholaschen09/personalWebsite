@@ -13,7 +13,7 @@ import model2 from './model2.png';
 import measure from './measure.png';
 import measurept2 from './measurept2.png';
 import sketch2 from './sketch2.png';
-import dome from './demo.png';
+import dome from './demo.jp';
 
 const Puzzle = () => {
     const handleGoBack = () => {

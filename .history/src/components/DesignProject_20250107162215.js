@@ -47,8 +47,9 @@ const DesignProject = () => {
                     <img src={cardboard} alt="Cardboard" className="project-image" />
                     <h3>Accessibility and Inclusivity</h3>
                     <img src={domesketch} alt="domesketch" className="project-image" />
-                    <p>Our project was designed with accessibility in mind. Features like Braille-labeled poles allow visually impaired individuals to engage with the installation, creating a truly inclusive experience. By combining visual and tactile elements, the project encourages all users to explore the stars, sparking curiosity and fostering a sense of connection.</p>
                     <img src={domeImage} alt="Dome Design" className="project-image" />
+                    <p>Our project was designed with accessibility in mind. Features like Braille-labeled poles allow visually impaired individuals to engage with the installation, creating a truly inclusive experience. By combining visual and tactile elements, the project encourages all users to explore the stars, sparking curiosity and fostering a sense of connection.</p>
+                    
                     <h3>Challenges and Solutions</h3>
                     <p>The journey from concept to design was not without its obstacles, requiring perseverance and innovative problem-solving. Selecting materials that balanced sustainability, strength, and cost-effectiveness necessitated careful research, detailed comparisons, and repeated testing to ensure the final choices would meet all design criteria. After extensive evaluation, bamboo and bendable concrete stood out as ideal options due to their renewability, durability, and versatility.</p>
 

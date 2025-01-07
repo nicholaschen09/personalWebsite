@@ -15,7 +15,7 @@ import Photography from './components/Photography.js';
 import Solidworks from './components/Solidworks.js';
 import Puzzle from './components/Puzzle.js';
 import DesignProject from './components/DesignProject.js';
-import NC from './components/NC-3.png';
+import NC from '/NC-3.png';
 import './App.css'; // Import the CSS file
 
 function App() {

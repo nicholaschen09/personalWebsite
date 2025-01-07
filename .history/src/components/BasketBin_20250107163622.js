@@ -1,9 +1,5 @@
 import React from 'react';
-import './BasketBin.css';
-import h66 from './h66.JPG';
-import h65 from './h65.JPG';
-import h64 from './h64.JPG';
-
+import './BasketBin.css'; J;
 
 const BasketBin = () => {
     const handleGoBack = () => {
@@ -21,14 +17,14 @@ const BasketBin = () => {
                     <img src={h66} alt="h66" className="project-image" />
                     <h3>About the Project</h3>
                     <p>BasketBin is a smart waste management system that uses IoT technology to optimize garbage collection routes and schedules. Our goal is to make waste management more efficient, cost-effective, and environmentally friendly.</p>
-                    <img src={h65} alt="h65" className="project-image" />
+
                     <h3>Key Features</h3>
                     <ul>
                         <li>Real-time fill level monitoring</li>
                         <li>Optimized collection routes</li>
                         <li>Data analytics for waste management insights</li>
                     </ul>
-                    <img src={h64} alt="h64" className="project-image" />
+
                     <h3>GitHub Repository</h3>
                     <p>You can find the source code for this project on GitHub at: <a href="https://github.com/DerrickHa/ht6" target="_blank" rel="noopener noreferrer">BasketBin Github Repository</a>.</p>
 
