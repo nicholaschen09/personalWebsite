@@ -55,9 +55,12 @@ const BasketBin = () => {
                     </ul>
                     <h3>Project Video</h3>
                     <p>Watch the project video on YouTube:</p>
+                    <a href="https://youtu.be/6YRTP7_Oet8?si=QnTfldsbFhywgt0I" target="_blank" rel="noopener noreferrer">BasketBin Project Video</a>
                     <div className="video-wrapper">
                         <iframe
-                            src="https://www.youtube.com/embed/6YRTP7_Oet8"
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/your_video_id"
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

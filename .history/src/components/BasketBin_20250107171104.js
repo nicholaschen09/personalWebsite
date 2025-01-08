@@ -7,6 +7,7 @@ import h63 from './h63.jpg';
 import h62 from './h62.JPG';
 import h6 from './h6.JPG';
 
+
 const BasketBin = () => {
     const handleGoBack = () => {
         window.history.back();
@@ -44,7 +45,7 @@ const BasketBin = () => {
                         <li>Mobile app built with React Native</li>
                         <li>Web portal built with React and Node.js</li>
                     </ul>
-                    <img src={h6} alt="h6" className="project-image" />
+
                     <h3>Hack the 6ix Hackathon</h3>
                     <p>BasketBin @ Hack the 6ix Hackathon</p>
                     <p>Python, HTML, C++, JavaScript, CSS | August 2024</p>
@@ -53,17 +54,6 @@ const BasketBin = () => {
                         <li>Developed a Python program integrating with hardware, utilizing a trained computer vision model with Flask to classify waste, achieving 90% accuracy in recycling detection.</li>
                         <li>Implemented a leaderboard and user management system using Supabase, HTML, and CSS, leading to a 15% increase in recycling participation.</li>
                     </ul>
-                    <h3>Project Video</h3>
-                    <p>Watch the project video on YouTube:</p>
-                    <div className="video-wrapper">
-                        <iframe
-                            src="https://www.youtube.com/embed/6YRTP7_Oet8"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen>
-                        </iframe>
-                    </div>
                 </div>
             </div>
         </div>

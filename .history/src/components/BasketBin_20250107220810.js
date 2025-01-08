@@ -14,7 +14,7 @@ const BasketBin = () => {
     return (
         <div className="center-wrapper">
             <button className="back-button" onClick={handleGoBack}>
-                Back
+                Back 
             </button>
             <div className="basketbin">
                 <h1>BasketBin</h1>
@@ -55,6 +55,7 @@ const BasketBin = () => {
                     </ul>
                     <h3>Project Video</h3>
                     <p>Watch the project video on YouTube:</p>
+                
                     <div className="video-wrapper">
                         <iframe
                             src="https://www.youtube.com/embed/6YRTP7_Oet8"

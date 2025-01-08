@@ -14,7 +14,7 @@ const BasketBin = () => {
     return (
         <div className="center-wrapper">
             <button className="back-button" onClick={handleGoBack}>
-                Back
+                Back 
             </button>
             <div className="basketbin">
                 <h1>BasketBin</h1>
