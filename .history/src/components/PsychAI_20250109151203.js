@@ -1,5 +1,5 @@
 import React from 'react';
-import './PsychAI.css';
+import styles from './PsychAI.css';
 import original5 from './original5.png';
 import original6 from './original6.png';
 
@@ -7,7 +7,6 @@ const PsychAI = () => {
     const handleGoBack = () => {
         window.history.back();
     };
-
     return (
         <div className="center-wrapper">
             <button className="back-button" onClick={handleGoBack}>
@@ -46,17 +45,7 @@ const PsychAI = () => {
                         <li>Implemented Firebase OAuth for easy sign-up and login, achieving a 25% increase in active users over six months.</li>
                         <li>Designed each screen using Figma, improving user engagement by 40% through intuitive interface design.</li>
                     </ul>
-                    <h3>Project Video</h3>
-                    <p>Watch the project video on YouTube:</p>
-                    <div className="video-wrapper">
-                        <iframe
-                            src="https://www.youtube.com/embed/kCde2Ni_yEE"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen>
-                        </iframe>
-                    </div>
+                    
                 </div>
             </div>
         </div>

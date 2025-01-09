@@ -57,7 +57,7 @@ const Academates = () => {
                     <p>Watch the project video on YouTube:</p>
                     <div className="video-wrapper">
                         <iframe
-                            src="https://youtube.com/embed/kOnuKtYH_co?si=El0ZtOKso9VL2VId"
+                            src="https://www.youtube.com/embed/kCde2Ni_yEE"
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

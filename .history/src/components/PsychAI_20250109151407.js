@@ -1,13 +1,9 @@
 import React from 'react';
-import styles from './Academates.css';
-import original from './original.png';
-import original2 from './original2.png';
-import original3 from './original3.png';
-import original4 from './original4.png';
+import styles from './PsychAI.css';
+import original5 from './original5.png';
+import original6 from './original6.png';
 
-
-
-const Academates = () => {
+const PsychAI = () => {
     const handleGoBack = () => {
         window.history.back();
     };
@@ -16,10 +12,10 @@ const Academates = () => {
             <button className="back-button" onClick={handleGoBack}>
                 Back
             </button>
-            <div className="academates">
-                <h1>Academates</h1>
+            <div className="psychai">
+                <h1>PsychAI</h1>
                 <div className="content">
-                    <p>Welcome to the Academates project page. This is where you'll find information about our innovative school and homework help app.</p>
+                    <p>Welcome to the PsychAI project page. This is where you'll find information about our innovative school and homework help app.</p>
 
                     <h3>About the Project</h3>
                     <p>Academates is an app similar to Discord for school and homework help, using JavaScript, HTML, CSS, and SCSS.</p>
@@ -33,20 +29,16 @@ const Academates = () => {
                     </ul>
 
                     <h3>GitHub Repository</h3>
-                    <p>You can find the source code for this project on GitHub at: <a href="https://github.com/nicholaschen09/Academates" target="_blank" rel="noopener noreferrer">Academates Github Repository</a>.</p>
+                    <p>You can find the source code for this project on GitHub at: <a href="https://github.com/nicholaschen09/PsychAI-main-2" target="_blank" rel="noopener noreferrer">Academates Github Repository</a>.</p>
 
                     <h3>Images of the Product</h3>
-                    <p>The product logo</p>
-                    <img src={original} alt="original" className="project-image" />
                     <p>The chat interface of the website</p>
-                    <img src={original2} alt="original2" className="project-image" />
-                    <p>The menu selection for the different subjects and age ranges in academates</p>
-                    <img src={original3} alt="original3" className="project-image" />
-                    <p>The Academates welcome page</p>
-                    <img src={original4} alt="original4" className="project-image" />
+                    <img src={original5} alt="original5" className="project-image" />
+                    <p>The product logo and welcome page</p>
+                    <img src={original6} alt="original6" className="project-image" />
 
-                    <h3>Jamhacks 7 Hackathon</h3>
-                    <p>Academates @ Waterloo’s Jamhacks 7 Hackathon</p>
+                    <h3>Hackathon</h3>
+                    <p>Psych AI @ Online Hackathon</p>
                     <p>JavaScript, CSS, SCSS, HTML | May 2023</p>
                     <ul>
                         <li>Created an app similar to Discord for school and homework help, using JavaScript, HTML, CSS, and SCSS.</li>
@@ -57,7 +49,7 @@ const Academates = () => {
                     <p>Watch the project video on YouTube:</p>
                     <div className="video-wrapper">
                         <iframe
-                            src="https://youtube.com/embed/kOnuKtYH_co?si=El0ZtOKso9VL2VId"
+                            src="https://youtu.be/kCde2Ni_yEE"
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -70,4 +62,4 @@ const Academates = () => {
     );
 }
 
-export default Academates;
+export default PsychAI;
