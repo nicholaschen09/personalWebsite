@@ -1,0 +1,40 @@
+import React from 'react';
+import './TikTokViewPredictor.css';
+
+const TikTokViewPredictor = () => {
+    const handleGoBack = () => {
+        window.history.back();
+    };
+    return (
+        <div className="center-wrapper">
+            <button className="back-button" onClick={handleGoBack}>
+                Back
+            </button>
+            <div className="tiktokviewpredictor">
+                <h1>TikTok View Predictor</h1>
+                <div className="content">
+                    <p>Welcome to the TikTok View Predictor project page. This is where you'll find information about this innovative tool for predicting TikTok video views.</p>
+
+                    <h3>About the Project</h3>
+                    <p>TikTok View Predictor is a machine learning-based tool that predicts the number of views a TikTok video will receive based on various features.</p>
+
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Accurate view predictions</li>
+                        <li>Data analysis of video features</li>
+                        <li>Machine learning model training</li>
+                        <li>Interactive user interface</li>
+                    </ul>
+
+                    <h3>The Process of C</h3>
+                    <img src={shape1} alt="shape1" className="project-image" />
+                    <h3>GitHub Repository</h3>
+                    <p>You can find the source code for this project on GitHub at: <a href="https://github.com/nicholaschen09/tiktok-view-predictor" target="_blank" rel="noopener noreferrer">TikTok View Predictor GitHub Repository</a>.</p>
+
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default TikTokViewPredictor;
