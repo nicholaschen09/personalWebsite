@@ -17,11 +17,11 @@ import Puzzle from './components/Puzzle.js';
 import DesignProject from './components/DesignProject.js';
 import NC from './components/NC-3.png';
 import PsychAI from './components/PsychAI.js';
-import './App.css';
+import './App.css'; 
 
 function App() {
   const linkStyle = {
-    color: 'rgba(255, 0, 144, 0.733)',
+    color: 'rgba(255, 0, 144, 0.733)', 
   };
   return (
     <Router>

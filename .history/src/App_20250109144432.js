@@ -17,11 +17,11 @@ import Puzzle from './components/Puzzle.js';
 import DesignProject from './components/DesignProject.js';
 import NC from './components/NC-3.png';
 import PsychAI from './components/PsychAI.js';
-import './App.css';
+import './App.css'; // Import the CSS file
 
 function App() {
   const linkStyle = {
-    color: 'rgba(255, 0, 144, 0.733)',
+    color: 'rgba(255, 0, 144, 0.733)', // Define the color style for links
   };
   return (
     <Router>
@@ -51,7 +51,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects/miscellaneous" element={<Miscellaneous />} />
           <Route path="/projects/design" element={<Design />} />
-          <Route path="/projects/engineering/*" element={<Engineering />} />
+          <Route path="/projects/engineering" element={<Engineering />} />
           <Route path="/projects/engineering/basketbin" element={<BasketBin />} />
           <Route path="/projects/engineering/academates" element={<Academates />} />
           <Route path="/projects/engineering/solidworks" element={<Solidworks />} />
@@ -59,8 +59,8 @@ function App() {
           <Route path="/projects/design/voluntrack" element={<VolunTrack />} />
           <Route path="/projects/miscellaneous/photography" element={<Photography />} />
           <Route path="/projects/engineering/puzzle" element={<Puzzle />} />
-          <Route path="/projects/engineering/designproject" element={<DesignProject />} />
-          <Route path="/projects/engineering/psychai" element={<PsychAI />} />
+          
+          
         </Routes>
       </div>
     </Router>

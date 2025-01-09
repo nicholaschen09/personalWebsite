@@ -2,6 +2,7 @@ import React from 'react';
 import './Puzzle.css';
 import final from './final.jpg';
 import bearbody from './bearbody.png';
+
 import measurement from './measurement.png';
 import stomach from './stomach.png';
 import spreadpieces from './spreadpieces.png';

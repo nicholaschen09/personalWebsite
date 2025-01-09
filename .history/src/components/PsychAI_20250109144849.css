@@ -22,10 +22,10 @@
     line-height: 1.6;
 }
 
-.psychai {
+.psy {
     width: 100%;
     max-width: 1200px;
-    margin-bottom: 40px;
+    /* Set a max-width to ensure readability */
 }
 
 .project-info a {

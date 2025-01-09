@@ -38,7 +38,7 @@ const Engineering = () => {
                 <Route path="solidworks" element={<Solidworks />} />
                 <Route path="puzzle" element={<Puzzle />} />
                 <Route path="designproject" element={<DesignProject />} />
-                <Route path="psychai" element={<PsychAI />} />
+                <Route path="ps" element={<PsychAI />} />
             </Routes>
         </div>
     );

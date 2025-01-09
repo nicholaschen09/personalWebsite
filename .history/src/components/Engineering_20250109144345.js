@@ -6,7 +6,7 @@ import Academates from './Academates';
 import Solidworks from './Solidworks';
 import Puzzle from './Puzzle';
 import DesignProject from './DesignProject.js';
-import PsychAI from './PsychAI.js';
+import PsychAI from './Ps'
 import './Engineering.css';
 
 const Engineering = () => {
@@ -20,15 +20,15 @@ const Engineering = () => {
                 Back
             </button>
             <div className="engineering">
-                <h1>Engineering Projects</h1>
-                <p>All my school/side projects</p>
-                <Link to="basketbin"><button>BasketBin</button></Link>
-                <Link to="academates"><button>Academates</button></Link>
-                <Link to="tiktokviewpredictor"><button>TikTok View Predictor</button></Link>
-                <Link to="solidworks"><button>Engineering Portfolio</button></Link>
-                <Link to="puzzle"><button>Puzzle Project</button></Link>
-                <Link to="designproject"><button>Design Project</button></Link>
-                <Link to="psychai"><button>Psych AI</button></Link>
+                <h1>engineering projects</h1>
+                <p>all my school/side projects</p>
+                <Link to="basketbin"><button>basketbin</button></Link>
+                <Link to="academates"><button>academates</button></Link>
+                <Link to="tiktokviewpredictor"><button>tiktok view predictor</button></Link>
+                <Link to="solidworks"><button>engineering portfolio</button></Link>
+                <Link to="puzzle"><button>puzzle project</button></Link>
+                <Link to="designproject"><button>design project</button></Link>
+                <Link to="psychai"><button>psych AI</button></Link>
             </div>
 
             <Routes>

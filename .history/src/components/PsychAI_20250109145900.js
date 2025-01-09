@@ -13,9 +13,9 @@ const PsychAI = () => {
                 Back
             </button>
             <div className="psychai">
-                <h1>PsychAI</h1>
+                <h1>Psych AI</h1>
                 <div className="content">
-                    <p>Welcome to the PsychAI project page. This is where you'll find information about our innovative school and homework help app.</p>
+                    <p>Welcome to the Psych AI project page. This is where you'll find information about our innovative school and homework help app.</p>
 
                     <h3>About the Project</h3>
                     <p>Academates is an app similar to Discord for school and homework help, using JavaScript, HTML, CSS, and SCSS.</p>
@@ -29,7 +29,7 @@ const PsychAI = () => {
                     </ul>
 
                     <h3>GitHub Repository</h3>
-                    <p>You can find the source code for this project on GitHub at: <a href="https://github.com/nicholaschen09/PsychAI-main-2" target="_blank" rel="noopener noreferrer">Academates Github Repository</a>.</p>
+                    <p>You can find the source code for this project on GitHub at: <a href="https://github.com/nicholaschen09/Academates" target="_blank" rel="noopener noreferrer">Academates Github Repository</a>.</p>
 
                     <h3>Images of the Product</h3>
                     <p>The chat interface of the website</p>

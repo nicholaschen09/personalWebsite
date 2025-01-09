@@ -29,7 +29,7 @@ const PsychAI = () => {
                     </ul>
 
                     <h3>GitHub Repository</h3>
-                    <p>You can find the source code for this project on GitHub at: <a href="https://github.com/nicholaschen09/PsychAI-main-2" target="_blank" rel="noopener noreferrer">Academates Github Repository</a>.</p>
+                    <p>You can find the source code for this project on GitHub at: <a href="https://github.com/nicholaschen09/Academates" target="_blank" rel="noopener noreferrer">Academates Github Repository</a>.</p>
 
                     <h3>Images of the Product</h3>
                     <p>The chat interface of the website</p>
