@@ -1,10 +1,6 @@
 import React from 'react';
 import './VolunTrack.css';
-import voluntrack1 from './voluntrack1.PNG';
-import voluntrack2 from './voluntrack2.PNG';
-import voluntrack3 from './voluntrack3.PNG';
-import voluntrack4 from './voluntrack4.PNG';
-import voluntrack5 from './voluntrack5.PNG';
+import voluntrack2 from './voluntrack1.PNG'; 
 
 const VolunTrack = () => {
     const handleGoBack = () => {

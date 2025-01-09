@@ -1,10 +1,5 @@
 import React from 'react';
 import './VolunTrack.css';
-import voluntrack1 from './voluntrack1.PNG';
-import voluntrack2 from './voluntrack2.PNG';
-import voluntrack3 from './voluntrack3.PNG';
-import voluntrack4 from './voluntrack4.PNG';
-import voluntrack5 from './voluntrack5.PNG';
 
 const VolunTrack = () => {
     const handleGoBack = () => {
@@ -32,11 +27,11 @@ const VolunTrack = () => {
                         <li>Mobile app for volunteers and organizers</li>
                     </ul>
                     <h3>Images of the app on mobile</h3>
-                    <img src={voluntrack1} alt="voluntrack1" className="project-image" />
-                    <img src={voluntrack2} alt="voluntrack2" className="project-image" />
-                    <img src={voluntrack3} alt="voluntrack3" className="project-image" />
-                    <img src={voluntrack4} alt="voluntrack4" className="project-image" />
-                    <img src={voluntrack5} alt="voluntrack5" className="project-image" />
+                    <img src={voluntrack1} alt="shape1" className="project-image" />
+                    <img src={voluntrack} alt="shape1" className="project-image" />
+                    <img src={shape1} alt="shape1" className="project-image" />
+                    <img src={shape1} alt="shape1" className="project-image" />
+                    <img src={shape1} alt="shape1" className="project-image" />
                     <h3>GitHub Repository</h3>
                     <p>You can find the source code for this project on GitHub at: <a href="https://github.com/VolunTrack/Web" target="_blank" rel="noopener noreferrer">VolunTrack GitHub Repository</a>.</p>
 
