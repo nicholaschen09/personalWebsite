@@ -17,7 +17,7 @@ import Puzzle from './components/Puzzle.js';
 import DesignProject from './components/DesignProject.js';
 import NC from './components/NC-3.png';
 import PsychAI from './components/PsychAI.js';
-import Experience from './components/Experience.js';
+
 import './App.css';
 
 function App() {
@@ -40,9 +40,6 @@ function App() {
               <Link to="/projects" style={linkStyle}>Projects</Link>
             </li>
             <li>
-              <Link to="/experience" style={linkStyle}>Experience</Link>
-            </li>
-            <li>
               <Link to="/blog" style={linkStyle}>Blogs</Link>
             </li>
           </ul>
@@ -52,7 +49,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/experience" element={<Experience />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects/miscellaneous" element={<Miscellaneous />} />
           <Route path="/projects/design" element={<Design />} />

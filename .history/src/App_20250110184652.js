@@ -40,10 +40,10 @@ function App() {
               <Link to="/projects" style={linkStyle}>Projects</Link>
             </li>
             <li>
-              <Link to="/experience" style={linkStyle}>Experience</Link>
+              <Link to="/blog" style={linkStyle}>Blogs</Link>
             </li>
             <li>
-              <Link to="/blog" style={linkStyle}>Blogs</Link>
+              <Link to="/" style={linkStyle}>Blogs</Link>
             </li>
           </ul>
         </nav>

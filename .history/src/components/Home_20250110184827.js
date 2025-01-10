@@ -5,7 +5,6 @@ import './Background.css';
 import Blog from './Blog';
 import About from './About';
 import Projects from './Projects';
-import Experience from './Experience';
 
 const Home = () => {
     return (
@@ -14,7 +13,7 @@ const Home = () => {
             <p>welcome to my personal website. here is everything from my brain dumped onto a screen.</p>
             <div className="section">
                 <div className="homebuttons">
-                    <Link to="experience"><button>experience</button></Link>
+                    <Link to="experie"><button>about</button></Link>
                     <Link to="projects"><button>projects</button></Link>
                     <Link to="blog"><button>blogs</button></Link>
                     <Link to="about"><button>about</button></Link>

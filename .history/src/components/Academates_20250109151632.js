@@ -5,6 +5,8 @@ import original2 from './original2.png';
 import original3 from './original3.png';
 import original4 from './original4.png';
 
+
+
 const Academates = () => {
     const handleGoBack = () => {
         window.history.back();

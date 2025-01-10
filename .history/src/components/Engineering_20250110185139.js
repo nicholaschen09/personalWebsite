@@ -20,7 +20,7 @@ const Engineering = () => {
                 Back
             </button>
             <div className="engineering">
-                <h1>engineering projects</h1>
+                <h1>Engineering projects</h1>
                 <p>All my school/side projects</p>
                 <Link to="basketbin"><button>BasketBin</button></Link>
                 <Link to="academates"><button>Academates</button></Link>
