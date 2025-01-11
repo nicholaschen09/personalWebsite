@@ -52,6 +52,7 @@ const About = () => {
                         <p><strong>Technologies/Frameworks:</strong> GitHub, Firebase, React, React Native, Node.js, Flask, Numpy, Pandas, MongoDB, PyTorch, TensorFlow</p>
                         <p><strong>Design:</strong> Figma, Procreate, Adobe, SOLIDWORKS, AutoCAD, Fusion 360</p>
                     </div>
+                    
                 </div>
             </div>
         </div>
