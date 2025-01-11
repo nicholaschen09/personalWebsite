@@ -1,0 +1,283 @@
+.project-info {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.center-wrapper {
+    min-height: 100vh;
+    /* Minimum height is full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 150px 10px 150px;
+}
+
+.experience {
+    width: 100%;
+    max-width: 1200px;
+    /* Set a max-width to ensure readability */
+}
+
+.project-info h2 {
+    color: #FF0090;
+}
+
+.project-info p {
+    color: #FF0090;
+    line-height: 1.6;
+}
+
+.project-info a {
+    color: #008080;
+    text-decoration: none;
+}
+
+.project-info a:hover {
+    text-decoration: underline;
+}
+
+.project-info img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.center-wrapper {
+    text-align: center;
+}
+
+.back-button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+.experience {
+    margin: 20px;
+}
+
+.content {
+    text-align: left;
+    margin: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job-logo {
+    width: 50px;
+    /* Set a fixed width */
+    height: 50px;
+    /* Set a fixed height */
+    object-fit: contain;
+    /* Ensure the image fits within the specified dimensions */
+    display: block;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.center-wrapper {
+    text-align: center;
+}
+
+.back-button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+.experience {
+    margin: 20px;
+}
+
+.content {
+    text-align: left;
+    margin: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job-logo {
+    width: 50px;
+    /* Set a fixed width */
+    height: 50px;
+    /* Set a fixed height */
+    object-fit: contain;
+    /* Ensure the image fits within the specified dimensions */
+    display: block;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    /* Increase the font size for job titles */
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 1.3em;
+    /* Increase the font size for company names */
+    margin-top: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+import React from 'react';
+import './Experience.css';
+import RBCxLogo from './RBCx.png';
+import OwnrLogo from './ownr.jpeg';
+import UWAFTLogo from './uwaft.png';
+import RBCLogo from './images.png';
+import MetaHashCapitalLogo from './metahashcapital.jpeg';
+import VolunTrackLogo from './voluntrack.webp';
+
+const Experience=()=> {
+    const handleGoBack=()=> {
+        window.history.back();
+    }
+
+    ;
+
+    const experiences=[ {
+        role: "Software Developer Intern",
+            company: "RBCx (Co-op)",
+            duration: "Jan 2025 – Present (1 mo)",
+            location: "Toronto, Ontario, Canada (Hybrid)",
+            description: "Incoming winter 2025 @ Ownr",
+            logo: RBCxLogo,
+    }
+
+    ,
+    {
+    role: "Software Developer Intern",
+        company: "Ownr (Co-op)",
+        duration: "Jan 2025 – Present (1 mo)",
+        location: "Toronto, Ontario, Canada (Hybrid)",
+        description: "Ownr is an RBC Ventures company associated with RBCx",
+        logo: OwnrLogo,
+}
+
+,
+{
+role: "Electrical Engineer",
+    company: "University of Waterloo EcoCAR Team (UWAFT) (On-Call)",
+    duration: "Sep 2024 – Present (5 mos)",
+    location: "Waterloo, Ontario, Canada (Hybrid)",
+    description: "Helping build an alternative fuel car that is eco-friendly and efficient",
+    logo: UWAFTLogo,
+}
+
+,
+{
+role: "Innovation Developer Intern",
+    company: "RBC (Internship)",
+    duration: "Jul 2024 – Aug 2024 (2 mos)",
+    location: "Toronto, Ontario, Canada (Hybrid)",
+    description: "Built a machine learning model using linear regression for better resource allocation within the technology support team",
+    skills: "Python, NumPy, Pandas, Machine Learning",
+    logo: RBCLogo,
+}
+
+,
+{
+role: "UX Design Intern",
+    company: "Meta Hash Capital (Internship)",
+    duration: "Apr 2023 – Sep 2023 (6 mos)",
+    location: "Markham, Ontario, Canada (Hybrid)",
+    description: "Designed wireframes and prototypes using Figma for the company’s product to allow for better user experience",
+    skills: "Design, Figma, User Experience (UX)",
+    logo: MetaHashCapitalLogo,
+}
+
+,
+{
+role: "UX/UI Design Intern",
+    company: "VolunTrack Org. (On-Call)",
+    duration: "Mar 2022 – Oct 2022 (8 mos)",
+    location: "Richmond Hill, Ontario, Canada (Hybrid)",
+    description: "Developed and designed intuitive user interfaces and screens for the mobile application",
+    skills: "Figma",
+    logo: VolunTrackLogo,
+}
+
+,
+];
+
+return (<div className="center-wrapper" > <button className="back-button" onClick= {
+        handleGoBack
+    }
+
+    > Back </button> <div className="experience" > <h1>My Experience</h1> <div className="content" > {
+        experiences.map((exp, index)=> (<div key= {
+                    index
+                }
+
+                className="job" > <img src= {
+                    exp.logo
+                }
+
+                alt= {
+                    `$ {
+                        exp.company
+                    }
+
+                    logo`
+                }
+
+                className="job-logo" /> <h2> {
+                    exp.role
+                }
+
+                </h2> <h3> {
+                    exp.company
+                }
+
+                </h3> <p><strong>Duration:</strong> {
+                    exp.duration
+                }
+
+                </p> <p><strong>Location:</strong> {
+                    exp.location
+                }
+
+                </p> <p><strong>Description:</strong> {
+                    exp.description
+                }
+
+                </p> {
+                    exp.skills && <p><strong>Skills:</strong> {
+                        exp.skills
+                    }
+
+                    </p>
+                }
+
+                </div>))
+    }
+
+    </div> </div> </div>);
+}
+
+;
+
+export default Experience;

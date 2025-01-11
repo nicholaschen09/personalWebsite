@@ -1,11 +1,5 @@
 import React from 'react';
 import './Experience.css';
-import RBCxLogo from './RBCx.png';
-import OwnrLogo from './ownr.jpeg';
-import UWAFTLogo from './uwaft.png';
-import RBCLogo from './images.png';
-import MetaHashCapitalLogo from './metahashcapital.jpeg';
-import VolunTrackLogo from './voluntrack.webp';
 
 const Experience = () => {
     const handleGoBack = () => {
@@ -19,7 +13,7 @@ const Experience = () => {
             duration: "Jan 2025 – Present (1 mo)",
             location: "Toronto, Ontario, Canada (Hybrid)",
             description: "Incoming winter 2025 @ Ownr",
-            logo: RBCxLogo,
+            logo: "/images/RBCx.png",
         },
         {
             role: "Software Developer Intern",
@@ -27,7 +21,7 @@ const Experience = () => {
             duration: "Jan 2025 – Present (1 mo)",
             location: "Toronto, Ontario, Canada (Hybrid)",
             description: "Ownr is an RBC Ventures company associated with RBCx",
-            logo: OwnrLogo,
+            logo: "/images/ownr.jpeg",
         },
         {
             role: "Electrical Engineer",
@@ -35,7 +29,7 @@ const Experience = () => {
             duration: "Sep 2024 – Present (5 mos)",
             location: "Waterloo, Ontario, Canada (Hybrid)",
             description: "Helping build an alternative fuel car that is eco-friendly and efficient",
-            logo: UWAFTLogo,
+            logo: "/images/uwaft.png",
         },
         {
             role: "Innovation Developer Intern",
@@ -44,7 +38,7 @@ const Experience = () => {
             location: "Toronto, Ontario, Canada (Hybrid)",
             description: "Built a machine learning model using linear regression for better resource allocation within the technology support team",
             skills: "Python, NumPy, Pandas, Machine Learning",
-            logo: RBCLogo,
+            logo: "/images/RBC.png",
         },
         {
             role: "UX Design Intern",
@@ -53,7 +47,7 @@ const Experience = () => {
             location: "Markham, Ontario, Canada (Hybrid)",
             description: "Designed wireframes and prototypes using Figma for the company’s product to allow for better user experience",
             skills: "Design, Figma, User Experience (UX)",
-            logo: MetaHashCapitalLogo,
+            logo: "./metahashcapital.jpeg",
         },
         {
             role: "UX/UI Design Intern",
@@ -62,7 +56,7 @@ const Experience = () => {
             location: "Richmond Hill, Ontario, Canada (Hybrid)",
             description: "Developed and designed intuitive user interfaces and screens for the mobile application",
             skills: "Figma",
-            logo: VolunTrackLogo,
+            logo: "./componevoluntrack.webp",
         },
     ];
 
@@ -77,14 +71,12 @@ const Experience = () => {
                     {experiences.map((exp, index) => (
                         <div key={index} className="job">
                             <img src={exp.logo} alt={`${exp.company} logo`} className="job-logo" />
-                            <div className="job-details">
-                                <h2>{exp.role}</h2>
-                                <h3>{exp.company}</h3>
-                                <p><strong>Duration:</strong> {exp.duration}</p>
-                                <p><strong>Location:</strong> {exp.location}</p>
-                                <p><strong>Description:</strong> {exp.description}</p>
-                                {exp.skills && <p><strong>Skills:</strong> {exp.skills}</p>}
-                            </div>
+                            <h2>{exp.role}</h2>
+                            <h3>{exp.company}</h3>
+                            <p><strong>Duration:</strong> {exp.duration}</p>
+                            <p><strong>Location:</strong> {exp.location}</p>
+                            <p><strong>Description:</strong> {exp.description}</p>
+                            {exp.skills && <p><strong>Skills:</strong> {exp.skills}</p>}
                         </div>
                     ))}
                 </div>

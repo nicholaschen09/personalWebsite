@@ -88,7 +88,6 @@ ul {
     list-style-type: disc;
     margin-left: 20px;
 }
-
 .center-wrapper {
     text-align: center;
 }
@@ -115,9 +114,9 @@ ul {
 }
 
 .job-logo {
-    width: 50px;
+    width: 100px;
     /* Set a fixed width */
-    height: 50px;
+    height: 100px;
     /* Set a fixed height */
     object-fit: contain;
     /* Ensure the image fits within the specified dimensions */
@@ -129,65 +128,6 @@ h2 {
     font-size: 1.5em;
     /* Increase the font size for job titles */
     margin-top: 10px;
-}
-
-h3 {
-    font-size: 1.3em;
-    /* Increase the font size for company names */
-    margin-top: 5px;
-}
-
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-.center-wrapper {
-    text-align: center;
-}
-
-.back-button {
-    margin: 10px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border: none;
-    cursor: pointer;
-}
-
-.experience {
-    margin: 20px;
-}
-
-.content {
-    text-align: left;
-    margin: 20px;
-}
-
-.job {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.job-logo {
-    width: 100px;
-    /* Set a fixed width */
-    height: 100px;
-    /* Set a fixed height */
-    object-fit: contain;
-    /* Ensure the image fits within the specified dimensions */
-    margin-right: 20px;
-    /* Space between the logo and the text */
-}
-
-.job-details {
-    flex: 1;
-}
-
-h2 {
-    font-size: 1.5em;
-    /* Increase the font size for job titles */
-    margin-top: 0;
 }
 
 h3 {

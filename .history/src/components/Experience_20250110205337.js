@@ -77,14 +77,12 @@ const Experience = () => {
                     {experiences.map((exp, index) => (
                         <div key={index} className="job">
                             <img src={exp.logo} alt={`${exp.company} logo`} className="job-logo" />
-                            <div className="job-details">
-                                <h2>{exp.role}</h2>
-                                <h3>{exp.company}</h3>
-                                <p><strong>Duration:</strong> {exp.duration}</p>
-                                <p><strong>Location:</strong> {exp.location}</p>
-                                <p><strong>Description:</strong> {exp.description}</p>
-                                {exp.skills && <p><strong>Skills:</strong> {exp.skills}</p>}
-                            </div>
+                            <h2>{exp.role}</h2>
+                            <h3>{exp.company}</h3>
+                            <p><strong>Duration:</strong> {exp.duration}</p>
+                            <p><strong>Location:</strong> {exp.location}</p>
+                            <p><strong>Description:</strong> {exp.description}</p>
+                            {exp.skills && <p><strong>Skills:</strong> {exp.skills}</p>}
                         </div>
                     ))}
                 </div>

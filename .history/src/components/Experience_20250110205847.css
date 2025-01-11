@@ -172,7 +172,7 @@ ul {
 .job-logo {
     width: 100px;
     /* Set a fixed width */
-    height: 100px;
+    height: 50px;
     /* Set a fixed height */
     object-fit: contain;
     /* Ensure the image fits within the specified dimensions */
