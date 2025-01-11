@@ -41,19 +41,19 @@ const About = () => {
                         <p>Expected Graduation Date: May 2029</p>
                         <p>Waterloo, Ontario</p>
 
-                        <p>President’s Scholarship of Distinction worth $5000</p>
-                        <p>Relevant Courses: Introduction to Design, Digital Computation, Elementary Engineering Math, Visual Communications</p>
+                        President’s Scholarship of Distinction worth $5000</li>
+                    <p>Relevant Courses: Introduction to Design, Digital Computation, Elementary Engineering Math, Visual Communications</p>
 
-                    </div>
-                    <div className="skills">
-                        <h2>technical skills</h2>
-                        <p><strong>Languages:</strong> Python, Java, C++, HTML/CSS, JavaScript, Kotlin, SQL, MATLAB</p>
-                        <p><strong>Developer Tools:</strong> VS Code, Eclipse, Android Studio, IntelliJ, Jupyter Notebook</p>
-                        <p><strong>Technologies/Frameworks:</strong> GitHub, Firebase, React, React Native, Node.js, Flask, Numpy, Pandas, MongoDB, PyTorch, TensorFlow</p>
-                        <p><strong>Design:</strong> Figma, Procreate, Adobe, SOLIDWORKS, AutoCAD, Fusion 360</p>
-                    </div>
+                </div>
+                <div className="skills">
+                    <h2>technical skills</h2>
+                    <p><strong>Languages:</strong> Python, Java, C++, HTML/CSS, JavaScript, Kotlin, SQL, MATLAB</p>
+                    <p><strong>Developer Tools:</strong> VS Code, Eclipse, Android Studio, IntelliJ, Jupyter Notebook</p>
+                    <p><strong>Technologies/Frameworks:</strong> GitHub, Firebase, React, React Native, Node.js, Flask, Numpy, Pandas, MongoDB, PyTorch, TensorFlow</p>
+                    <p><strong>Design:</strong> Figma, Procreate, Adobe, SOLIDWORKS, AutoCAD, Fusion 360</p>
                 </div>
             </div>
+        </div>
         </div >
     );
 };

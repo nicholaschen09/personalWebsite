@@ -40,10 +40,10 @@ const About = () => {
                         <p>Bachelor of Applied Science in Systems Design Engineering</p>
                         <p>Expected Graduation Date: May 2029</p>
                         <p>Waterloo, Ontario</p>
-
-                        <p>President’s Scholarship of Distinction worth $5000</p>
-                        <p>Relevant Courses: Introduction to Design, Digital Computation, Elementary Engineering Math, Visual Communications</p>
-
+                        
+                            <li>President’s Scholarship of Distinction worth $5000</li>
+                            <li>Relevant Courses: Introduction to Design, Digital Computation, Elementary Engineering Math, Visual Communications</li>
+                        
                     </div>
                     <div className="skills">
                         <h2>technical skills</h2>
@@ -54,7 +54,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
     );
 };
 
