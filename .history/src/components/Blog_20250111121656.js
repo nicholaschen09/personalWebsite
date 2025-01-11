@@ -13,17 +13,17 @@ const Blog = () => {
             <button className="back-button" onClick={handleGoBack}>
                 Back
             </button>
-            <div className="blog">
+            <div className="projects">
                 <h1>blogs</h1>
                 <p>here is a collection of all my blogs.</p>
-                <Link to="/blog/blog1">
-                    <button className="blog-button">Balancing School and Your Career</button>
+                <Link to=""/blog/blog1">>
+                    <button>Balancing School and Your Career</button>
                 </Link>
             </div>
             <Routes>
-                <Route path="/blog/blog1" element={<Blog1 />} />
+                <Route path="/blog1" element={<Blog1 />} />
             </Routes>
-        </div >
+        </div>
     );
 };
 

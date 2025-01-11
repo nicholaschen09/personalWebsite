@@ -67,7 +67,7 @@ function App() {
           <Route path="/projects/engineering/puzzle" element={<Puzzle />} />
           <Route path="/projects/engineering/designproject" element={<DesignProject />} />
           <Route path="/projects/engineering/psychai" element={<PsychAI />} />
-          <Route path="/blog/blog1" element={<Blog1 />} />
+          <Route path="/blogs/blog1" element={<Blog1 />} />
         </Routes>
       </div>
     </Router>

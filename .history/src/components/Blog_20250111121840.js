@@ -13,7 +13,7 @@ const Blog = () => {
             <button className="back-button" onClick={handleGoBack}>
                 Back
             </button>
-            <div className="blog">
+            <div className="projects">
                 <h1>blogs</h1>
                 <p>here is a collection of all my blogs.</p>
                 <Link to="/blog/blog1">

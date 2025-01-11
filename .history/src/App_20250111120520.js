@@ -18,7 +18,7 @@ import DesignProject from './components/DesignProject.js';
 import NC from './components/NC-4.png';
 import PsychAI from './components/PsychAI.js';
 import Experience from './components/Experience.js';
-import Blog1 from './components/Blog1.js';
+import 
 import './App.css';
 
 function App() {

@@ -21,7 +21,7 @@
 }
 
 /* src/components//Home.css */
-.blog {
+.projects {
     text-align: center;
     padding: 20px;
     display: flex;
@@ -32,9 +32,9 @@
 
 }
 
-.blog button {
+.projects button {
     width: 250px;
-    height: 60px;
+    height: 50px;
     border: 1px solid rgba(255, 0, 144, 0.733);
     padding: 10px 40px;
     background-color: #ffffff;
@@ -46,11 +46,11 @@
     margin: 5px;
 }
 
-.blog button:hover {
+.bl button:hover {
     background-color: rgba(255, 0, 144, 0.733);
     color: #fff;
 }
 
-.blog p {
+.projects p {
     font-size: 14px;
 }
