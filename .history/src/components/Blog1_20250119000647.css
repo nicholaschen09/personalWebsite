@@ -1,0 +1,16 @@
+.blog1 {
+    text-align: left;
+    padding: 20px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .blog1 {
+        width: px;
+        padding: 10px;
+    }
+}
