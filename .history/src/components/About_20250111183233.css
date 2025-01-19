@@ -11,9 +11,8 @@
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    .about {
+    .abo {
         padding: 10px;
-        max-width: 150px;
     }
 
     .about-button {
@@ -24,7 +23,6 @@
     .back-button {
         width: 100%;
         margin: 5px 0;
-        max-width: 100px;
     }
 }
 

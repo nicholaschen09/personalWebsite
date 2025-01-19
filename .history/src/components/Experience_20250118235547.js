@@ -15,7 +15,7 @@ const Experience = () => {
     const experiences = [
         {
             role: "Software Developer Intern",
-            company: "Ownr (RBCx) (Co-op)",
+            company: "Ownr RBCx) (Co-op)",
             duration: "Jan 2025 – Present (1 mo)",
             location: "Toronto, Ontario, Canada (Hybrid)",
             description: "Ownr is an RBC Ventures company associated with RBCx",
