@@ -95,17 +95,18 @@ body {
     flex-direction: row;
     padding: 40px;
     padding-left: 30px;
-    padding-right: 50px;
+    padding-right: 30px;
   }
 
   .horizontal-menu li {
     margin: 10px 0;
+    
   }
 
   .horizontal-menu li a {
     padding: 10px;
     font-size: 16px;
-
+    
   }
 
   .top-right-image {
