@@ -64,7 +64,7 @@ const Experience = () => {
                 Back
             </button>
             <div className="experience">
-                <h1>my experience</h1>
+                <h1>My experience</h1>
                 <div className="content">
                     {experiences.map((exp, index) => (
                         <div key={index} className="job">
