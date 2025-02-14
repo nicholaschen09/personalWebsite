@@ -1,3 +1,7 @@
+body {
+    font-size: 50px; /* crazy large fonts */
+}
+
 .background {
     background-color: #8cd296;
 }

@@ -59,26 +59,28 @@ const Experience = () => {
     ];
 
     return (
-        <div className="center-wrapper">
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
-            <div className="experience">
-                <h1>my experience</h1>
-                <div className="content">
-                    {experiences.map((exp, index) => (
-                        <div key={index} className="job">
-                            <img src={exp.logo} alt={`${exp.company} logo`} className="job-logo" />
-                            <div className="job-details">
-                                <h2>{exp.role}</h2>
-                                <h3>{exp.company}</h3>
-                                <p><strong>Duration:</strong> {exp.duration}</p>
-                                <p><strong>Location:</strong> {exp.location}</p>
-                                <p><strong>Description:</strong> {exp.description}</p>
-                                {exp.skills && <p><strong>Skills:</strong> {exp.skills}</p>}
+        <div className="experience">
+            <div className="center-wrapper">
+                <button className="back-button" onClick={handleGoBack}>
+                    Back
+                </button>
+                <div className="experience">
+                    <h1>my experience</h1>
+                    <div className="content">
+                        {experiences.map((exp, index) => (
+                            <div key={index} className="job">
+                                <img src={exp.logo} alt={`${exp.company} logo`} className="job-logo" />
+                                <div className="job-details">
+                                    <h2>{exp.role}</h2>
+                                    <h3>{exp.company}</h3>
+                                    <p><strong>Duration:</strong> {exp.duration}</p>
+                                    <p><strong>Location:</strong> {exp.location}</p>
+                                    <p><strong>Description:</strong> {exp.description}</p>
+                                    {exp.skills && <p><strong>Skills:</strong> {exp.skills}</p>}
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

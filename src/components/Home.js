@@ -6,6 +6,9 @@ import Blog from './Blog';
 import About from './About';
 import Projects from './Projects';
 import Experience from './Experience';
+import GithubLogo from './githubLogo.png';
+import LinkedinLogo from './linkedinLogo.png';
+import WebsiteLogo from './NC-4.png';
 
 const Home = () => {
     return (
@@ -21,16 +24,15 @@ const Home = () => {
                 </div>
             </div>
             <div className="section">
-                <h3>links</h3>
                 <div className="links">
                     <a href="https://github.com/nicholaschen09" target="_blank" rel="noopener noreferrer">
-                        <button>github</button>
+                        <img src={GithubLogo} alt="GitHub" style={{ width: 32, height: 32 }} />
                     </a>
                     <a href="https://www.linkedin.com/in/nicholas-chen-85886726a/" target="_blank" rel="noopener noreferrer">
-                        <button>linkedin</button>
+                        <img src={LinkedinLogo} alt="GitHub" style={{ width: 32, height: 32 }} />
                     </a>
                     <a href="https://nicholaschen243.wixsite.com/nicholas-chen" target="_blank" rel="noopener noreferrer">
-                        <button>art website</button>
+                        <img src={WebsiteLogo} alt="GitHub" style={{ width: 32, height: 32 }} />
                     </a>
                 </div>
             </div>
