@@ -1,3 +1,7 @@
+:root {
+    --pink-color: #ff0392; /* define your consistent pink colour */
+}
+
 /* General styles */
 @font-face {
   font-family: 'HughesDisplay';
@@ -44,8 +48,7 @@
 }
 
 body {
-  background-color: #ffffff;
-  color: rgba(255, 0, 144, 0.733);
+  color: var(--pink-color); /* use the variable for text colour */
 }
 
 @keyframes App-logo-spin {
@@ -75,7 +78,7 @@ body {
 
 .horizontal-menu li a {
   text-decoration: none;
-  color: rgba(255, 0, 144, 0.733);
+  color: var(--pink-color); /* updated to use the variable */
   font-size: 14px;
   padding: 20px;
   justify-content: center;
@@ -106,6 +109,12 @@ body {
   cursor: pointer;             /* show pointer cursor on hover */
   text-align: center;          /* center the button text */
   /* ...existing styles if any... */
+}
+
+.projects-container,
+.about-content,
+.bordered-section {
+  border: 1px solid var(--pink-color);
 }
 
 /* Responsive styles */

@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
-import githubLogo from './githubLogo.png';
-import linkedinLogo from './linkedinLogo.png';
+import GithubLogo from './pinkgithub.png'; // updated logo path
+import LinkedinLogo from './pinklinkedin.png'; // updated logo path
 import ArtWebsiteLogo from './ArtWebsiteLogo.jpg';
 
 const About = () => {
@@ -23,10 +23,10 @@ const About = () => {
                     <p>resume available upon request.</p>
                     <div className="social-links">
                         <a href="https://github.com/nicholaschen09" target="_blank" rel="noopener noreferrer">
-                            <img src={githubLogo} alt="GitHub" className="social-icon" />
+                            <img src={GithubLogo} alt="GitHub" className="social-icon" />
                         </a>
                         <a href="https://www.linkedin.com/in/nicholas-chen-85886726a/" target="_blank" rel="noopener noreferrer">
-                            <img src={linkedinLogo} alt="LinkedIn" className="social-icon" />
+                            <img src={LinkedinLogo} alt="LinkedIn" className="social-icon" />
                         </a>
                         <a href="https://nicholaschen243.wixsite.com/nicholas-chen" target="_blank" rel="noopener noreferrer">
                             <img src={ArtWebsiteLogo} alt="Art Website" className="social-icon" />

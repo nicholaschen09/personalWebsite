@@ -116,28 +116,25 @@ p {
 }
 
 .large-button {
-    font-size: 20px;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    /* Added more margin at the bottom */
+    font-size: 30px;              /* increased font size */
+    padding: 20px 40px;           /* increased padding */
+    margin-bottom: 30px;          /* increased bottom margin */
     font-family: "Drukwide", sans-serif; /* updated to Drukwide font */
 }
 
 .links button {
-    width: 175px;
     border: 1px solid rgba(255, 0, 144, 0.733);
-    padding: 10px 40px;
+    padding: 15px 60px;           /* increased padding */
     background-color: #ffffff;
     color: #000000;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 18px;              /* increased font size */
     transition: background-color 0.3s, color 0.3s;
     border-radius: 3px;
     text-decoration: none;
-    color: rgba(255, 0, 144, 0.733);
-    margin: 10px;
+    margin: 40px;
+    margin-top: 20px;             /* increased top margin */
     margin-bottom: 30px;
-    /* Added more margin at the bottom */
     font-family: "Drukwide", sans-serif; /* updated to Drukwide font */
 }
 
@@ -145,6 +142,13 @@ p {
     display: flex;
     gap: 20px; /* increased spacing between icons */
     justify-content: center; /* centers the icons */
+}
+
+.links a img {
+    width: 45px !important;    /* increased size with override */
+    height: 45px !important;   /* increased size with override */
+    border-radius: 10%; 
+    transition: transform 0.3s;
 }
 
 .home p {
@@ -169,7 +173,8 @@ p {
 @media (max-width: 768px) {
     .home {
         padding: 20px;
-        width: 300px;
+        width: 100%;             /* use full viewport width */
+        box-sizing: border-box;  /* include padding in width */
     }
 
     .DinnerImage {
@@ -189,6 +194,20 @@ p {
         position: static;
         width: 100%;
         padding: 10px;
+    }
+
+    .homebuttons a button,
+    .links button {
+        width: 100%;
+        padding: 10px;            /* reduced padding for buttons */
+        font-size: 12px;          /* smaller font size for buttons */
+        margin: 10px 0;
+    }
+
+    .large-button {
+        width: 100%;
+        padding: 10px;            /* adjust padding for large button */
+        font-size: 14px;          /* smaller font size for large button */
     }
 
     .homebuttons a button,

@@ -6,8 +6,8 @@ import Blog from './Blog';
 import About from './About';
 import Projects from './Projects';
 import Experience from './Experience';
-import GithubLogo from './githubLogo.png';
-import LinkedinLogo from './linkedinLogo.png';
+import GithubLogo from './pinkgithub.png';
+import LinkedinLogo from './pinklinkedin.png';
 import WebsiteLogo from './NC-4.png';
 
 const Home = () => {
@@ -31,10 +31,10 @@ const Home = () => {
                         <img src={GithubLogo} alt="GitHub" style={{ width: 32, height: 32 }} />
                     </a>
                     <a href="https://www.linkedin.com/in/nicholas-chen-85886726a/" target="_blank" rel="noopener noreferrer">
-                        <img src={LinkedinLogo} alt="GitHub" style={{ width: 32, height: 32 }} />
+                        <img src={LinkedinLogo} alt="Linkedin" style={{ width: 32, height: 32 }} />
                     </a>
                     <a href="https://nicholaschen243.wixsite.com/nicholas-chen" target="_blank" rel="noopener noreferrer">
-                        <img src={WebsiteLogo} alt="GitHub" style={{ width: 32, height: 32 }} />
+                        <img src={WebsiteLogo} alt="Website" style={{ width: 32, height: 32 }} />
                     </a>
                 </div>
             </div>
