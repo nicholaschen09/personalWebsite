@@ -1,6 +1,28 @@
+@font-face {
+    font-family: 'Drukwide';
+    /* Load the new TTF font from the current folder */
+    src: url('./FuntasticMillionMoment-BYxV.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RastelyBlur';
+    src: url('./RastelyBlurDemoRegular-E4rGW.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OneFlewOverTheCuckoosNest';
+    src: url('./OneFlewOverTheCuckoosNest-vn84.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .home {
     text-align: center;
-    padding: 50px;
+    padding: 0px 50px 50px 50px; /* reduced top padding: top right bottom left */
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -17,6 +39,7 @@ p {
     padding: 0;
     margin: 0;
     background-color: #fff;
+    margin-bottom: 0; /* remove nav bar bottom margin */
 }
 
 .navbar li {
@@ -29,6 +52,7 @@ p {
     font-size: 16px;
     padding: 10px 15px;
     transition: color 0.3s;
+    font-family: 'RastelyBlur', sans-serif; /* updated for nav bar */
 }
 
 .navbar a:hover {
@@ -73,19 +97,17 @@ p {
 
 .homebuttons a button {
     border: 1px solid rgba(255, 0, 144, 0.733);
-    padding: 20px 60px;
+    padding-top: 25px;
     background-color: #ffffff;
-    color: #000000;
+    color: rgba(255, 0, 144, 0.733); /* use a single color value */
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.3s, color 0.3s;
     border-radius: 3px;
     text-decoration: none;
-    color: rgba(255, 0, 144, 0.733);
     margin: 10px;
-    margin-bottom: 30px;
     width: 220px;
-    /* Added more margin at the bottom */
+    font-family: 'OneFlewOverTheCuckoosNest', sans-serif; /* updated button font */
 }
 
 .homebuttons a button:hover {
@@ -98,6 +120,7 @@ p {
     padding: 10px 20px;
     margin-bottom: 20px;
     /* Added more margin at the bottom */
+    font-family: "Drukwide", sans-serif; /* updated to Drukwide font */
 }
 
 .links button {
@@ -115,6 +138,7 @@ p {
     margin: 10px;
     margin-bottom: 30px;
     /* Added more margin at the bottom */
+    font-family: "Drukwide", sans-serif; /* updated to Drukwide font */
 }
 
 .links {
@@ -125,6 +149,20 @@ p {
 
 .home p {
     font-size: 14px;
+    padding: 0px;
+}
+
+.title h1 {
+    padding: 0px; /* reduced padding for the title */
+    margin: 0;
+    padding: 0; /* ensure no extra space inside the title */
+    padding-bottom: 50px; /* added padding at the bottom */
+    font-family: 'Drukwide', sans-serif; /* added font to title */
+}
+
+.title {
+    margin-top: 5px; /* reduced space between nav bar and title */
+    margin: 0; /* remove extra top space */
 }
 
 /* Responsive styles */

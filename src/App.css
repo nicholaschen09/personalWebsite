@@ -1,4 +1,18 @@
 /* General styles */
+@font-face {
+  font-family: 'HughesDisplay';
+  src: url('./.history/components/HughesDisplayDemoRegular-51paZ.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EightTrack';
+  src: url('./components/EightTrack-rvm8.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -65,6 +79,7 @@ body {
   font-size: 14px;
   padding: 20px;
   justify-content: center;
+  font-family: 'HughesDisplay', sans-serif; /* updated nav bar font */
 }
 
 .horizontal-menu li a:hover {
@@ -78,6 +93,19 @@ body {
   z-index: 1000;
   width: 25px;
   height: auto;
+}
+
+.back-button {
+  font-family: 'EightTrack', sans-serif; /* updated back button font */
+  width: 100%;
+  margin: 5px 0;
+  max-width: 100px;
+  padding: 10px;               /* added padding for better spacing */
+  border: none;                /* remove default border */
+  background: transparent;     /* ensure background is transparent or set as needed */
+  cursor: pointer;             /* show pointer cursor on hover */
+  text-align: center;          /* center the button text */
+  /* ...existing styles if any... */
 }
 
 /* Responsive styles */

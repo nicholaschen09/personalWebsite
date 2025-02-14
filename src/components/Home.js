@@ -13,7 +13,9 @@ import WebsiteLogo from './NC-4.png';
 const Home = () => {
     return (
         <div className="home">
+            <div className="title">
             <h1>hi, my name is nicholas chen</h1>
+            </div>
             <p>welcome to my personal website. here is everything from my brain dumped onto a screen.</p>
             <div className="section">
                 <div className="homebuttons">
