@@ -17,6 +17,13 @@
   font-style: normal;
 }
 
+@font-face {
+    font-family: 'Drukwide';
+    src: url('./components/FuntasticMillionMoment-BYxV.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -115,6 +122,10 @@ body {
 .about-content,
 .bordered-section {
   border: 1px solid var(--pink-color);
+}
+
+h1, h2, .title, .titleabt {
+    font-family: 'Drukwide', sans-serif;
 }
 
 /* Responsive styles */

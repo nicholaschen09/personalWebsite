@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Drukwide';
+    /* Load the new TTF font from the current folder */
+    src: url('./FuntasticMillionMoment-BYxV.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .about {
     text-align: center;
     padding: 10px;
@@ -30,6 +38,18 @@
         margin: 5px 0;
         max-width: 100px;
     }
+}
+
+.titleabt {
+    padding: 0px;
+    /* reduced padding for the title */
+    margin: 0;
+    padding: 0;
+    /* ensure no extra space inside the title */
+    padding-bottom: 50px;
+    /* added padding at the bottom */
+    font-family: 'Drukwide', sans-serif;
+    /* added font to title */
 }
 
 .profilePic {
