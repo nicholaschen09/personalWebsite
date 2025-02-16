@@ -2,6 +2,13 @@
     --pink-color: #ff0392; /* define your consistent pink colour */
 }
 
+@font-face {
+  font-family: 'NextSphereBold';
+  src: url('/Users/nicholaschen/machine learning linear regression/my personal website/src/components/NextSphereBold-2v7xd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+4
 /* General styles */
 @font-face {
   font-family: 'HughesDisplay';
@@ -89,7 +96,7 @@ body {
   font-size: 14px;
   padding: 20px;
   justify-content: center;
-  font-family: 'HughesDisplay', sans-serif; /* updated nav bar font */
+  font-family: 'NextSphereBold', sans-serif; /* updated nav bar font */
 }
 
 .horizontal-menu li a:hover {

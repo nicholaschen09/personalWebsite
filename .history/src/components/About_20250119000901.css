@@ -110,6 +110,12 @@ ul {
     /* Adjust the paragraph and list sizes as needed */
 }
 
+/* Add new style for centering the .titleabt title */
+.titleabt {
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+
 .social-icon {
     width: 24px;
     /* Adjust the icon size as needed */
