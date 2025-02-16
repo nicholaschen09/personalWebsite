@@ -93,7 +93,7 @@ body {
 .horizontal-menu li a {
   text-decoration: none;
   color: var(--pink-color); /* updated to use the variable */
-  font-size: 14px;
+  font-size: 16px;
   padding: 20px;
   justify-content: center;
   font-family: 'NextSphereBold', sans-serif; /* updated nav bar font */
