@@ -22,14 +22,8 @@ import output8 from './output8.png';
 import output9 from './output9.png';
 
 const TikTokViewPredictor = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
     return (
         <div className="center-wrapper">
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
             <div className="tiktokviewpredictor">
                 <h1>TikTok View Predictor</h1>
                 <div className="content">

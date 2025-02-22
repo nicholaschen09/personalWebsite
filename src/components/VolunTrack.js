@@ -7,15 +7,8 @@ import voluntrack4 from './voluntrack4.PNG';
 import voluntrack5 from './voluntrack5.PNG';
 
 const VolunTrack = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
-
     return (
         <div className="center-wrapper">
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
             <div className="voluntrack">
                 <h1>VolunTrack</h1>
                 <div className="content">

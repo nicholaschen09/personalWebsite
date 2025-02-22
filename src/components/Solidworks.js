@@ -33,14 +33,8 @@ import cardimen3 from './cardimen3.png';
 import nintendo from './nintendo.png';
 
 const BasketBin = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
     return (
         <div className="center-wrapper">
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
             <div className="engineeringportfolio">
                 <h1>Engineering Portfolio</h1>
                 <div className="content">

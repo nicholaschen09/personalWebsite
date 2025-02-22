@@ -3,13 +3,8 @@ import { Link } from 'react-router-dom';
 import './Projects.css';
 
 const Projects = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
     return (
-        <div> <button className="back-button" onClick={handleGoBack}>
-            Back
-        </button>
+        <div> 
             <div className="projects">
                 <div className="projecttitle">
                     <h1>personal projects </h1>

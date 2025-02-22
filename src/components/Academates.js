@@ -5,14 +5,8 @@ import original3 from './original3.png';
 import original4 from './original4.png';
 
 const Academates = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
     return (
         <div className="center-wrapper">
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
             <div className="academates">
                 <div className="titleacamdemates">
                     <h1>academates</h1>

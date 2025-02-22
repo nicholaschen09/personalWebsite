@@ -5,15 +5,7 @@ import LinkedinLogo from './pinklinkedin.png';
 import ArtWebsiteLogo from './ArtWebsiteLogo.jpg';
 
 const About = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
-
     return (
-        <div>
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
             <div className="about">
                 <h1 className="titleabout">about me</h1>
                 <div className="about-content">
@@ -54,7 +46,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div >
     );
 };
 

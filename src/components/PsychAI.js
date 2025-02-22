@@ -4,15 +4,8 @@ import original5 from './original5.png';
 import original6 from './original6.png';
 
 const PsychAI = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
-
     return (
         <div className="center-wrapper">
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
             <div className="psychai">
                 <h1>PsychAI</h1>
                 <div className="content">

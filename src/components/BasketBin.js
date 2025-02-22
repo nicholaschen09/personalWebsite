@@ -11,14 +11,8 @@ import screen2 from './screen2.PNG';
 import screen3 from './screen3.PNG';
 
 const BasketBin = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
     return (
         <div className="center-wrapper">
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
             <div className="basketbin">
                 <h1>BasketBin</h1>
                 <div className="content">

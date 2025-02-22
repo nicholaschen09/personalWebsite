@@ -5,10 +5,6 @@ import pic2 from './DSCN4095.JPG';
 import pic3 from './DSCN4514 2.jpg';
 
 const Photography = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
-
     const images = [
         pic1,
         pic2,
@@ -17,9 +13,6 @@ const Photography = () => {
 
     return (
         <div>
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
             <div className="photography">
                 <h1>photography</h1>
                 <div className="content">

@@ -5,10 +5,6 @@ import RBCLogo from './images.png';
 import MetaHashCapitalLogo from './metahashcapital.jpeg';
 
 const Experience = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
-
     const experiences = [
         {
             role: "Software Engineer Intern",
@@ -42,9 +38,6 @@ const Experience = () => {
     return (
         <div className="experience">
             <div className="center-wrapper">
-                <button className="back-button" onClick={handleGoBack}>
-                    Back
-                </button>
                 <div className="experience1">
                     <div className="titleabt">
                         <h1>my experience</h1>

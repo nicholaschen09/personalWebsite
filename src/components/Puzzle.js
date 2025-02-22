@@ -15,15 +15,8 @@ import sketch2 from './sketch2.png';
 import dome from './demo.png';
 
 const Puzzle = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
-
     return (
         <div className="center-wrapper">
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
             <div className="puzzle">
                 <h1>Puzzle Project</h1>
                 <div className="content">

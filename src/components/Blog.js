@@ -4,15 +4,8 @@ import './Blog.css';
 import Blog1 from './Blog1.js';
 
 const Blog = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
-
     return (
         <div>
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
             <div className="blog">
                 <h1>blogs</h1>
                 <p>here is a collection of all my blogs.</p>

@@ -10,15 +10,7 @@ import PsychAI from './PsychAI.js';
 import './Engineering.css';
 
 const Engineering = () => {
-    const handleGoBack = () => {
-        window.history.back();
-    };
-
     return (
-        <div>
-            <button className="back-button" onClick={handleGoBack}>
-                Back
-            </button>
             <div className="engineering">
                 <h1>engineering projects</h1>
                 <p>All my school/side projects</p>
@@ -29,8 +21,6 @@ const Engineering = () => {
                 <Link to="puzzle"><button>Puzzle Project</button></Link>
                 <Link to="designproject"><button>Design Project</button></Link>
                 <Link to="psychai"><button>Psych AI</button></Link>
-            </div>
-
             <Routes>
                 <Route path="basketbin" element={<BasketBin />} />
                 <Route path="academates" element={<Academates />} />
