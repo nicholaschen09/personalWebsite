@@ -82,16 +82,16 @@ nav {
 
 .horizontal-menu {
   list-style-type: none;
-  margin: 0 auto;          /* changed from margin-left: 40px */
+  margin: 0 auto;
   padding: 10px;
   margin-bottom: 80px;
-  display: inline-flex;    /* ensures the menu only takes the width of its content */
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
 
 .horizontal-menu li {
-  margin: 10px 20px;       /* adjusted spacing for a row layout */
+  margin: 10px 20px;
   justify-content: center;
 }
 
@@ -185,7 +185,6 @@ h1, h2, .title, .titleabt {
     pointer-events: auto;
   }
   .hamburger {
-    /* Remove hamburger display by not showing it */
     display: none;
   }
 }

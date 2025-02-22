@@ -10,7 +10,6 @@
     margin: 10px 10px 20px;
     color: rgba(255, 0, 144, 0.733);
     margin-top: -20px;
-    /* Adjust this value to move the button further up */
 }
 
 .back-button:hover {
@@ -26,7 +25,6 @@
 
 .center-wrapper {
     min-height: 100vh;
-    /* Minimum height is full viewport height */
     display: flex;
     justify-content: center;
     align-items: flex-start;
