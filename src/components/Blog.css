@@ -63,3 +63,8 @@
 .blog p {
     font-size: 14px;
 }
+
+.blog h1 {
+    margin-top: -70px !important;
+    /* adjust this value as needed to move the title up */
+}
