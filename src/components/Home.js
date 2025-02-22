@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
 import './Home.css';
 import './Background.css';
