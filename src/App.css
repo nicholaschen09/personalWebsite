@@ -180,13 +180,13 @@ h1, h2, .title, .titleabt {
     margin: auto;
     margin-bottom: -20px;
   }
-  .hamburger {
-    z-index: 1200;
-    pointer-events: auto;
-  }
   .horizontal-menu {
     z-index: 1100;
     pointer-events: auto;
+  }
+  .hamburger {
+    /* Remove hamburger display by not showing it */
+    display: none;
   }
 }
 

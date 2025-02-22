@@ -11,20 +11,10 @@ import LinkedinLogo from './pinklinkedin.png';
 import WebsiteLogo from './NC-4.png';
 
 const Home = () => {
-    const [setShowNav] = useState(false);
-    const toggleNav = () => setShowNav(prev => !prev);
-
     return (
         <div className="home">
-            {/* Hamburger for mobile */}
-            <div className="hamburger" onClick={toggleNav}>
-                {/* Simple hamburger icon (three bars) */}
-                <div style={{ width: '25px', height: '3px', background: '#000', margin: '4px 0' }}/>
-                <div style={{ width: '25px', height: '3px', background: '#000', margin: '4px 0' }}/>
-                <div style={{ width: '25px', height: '3px', background: '#000', margin: '4px 0' }}/>
-            </div>
             <div className="title">
-            <h1>hi, my name is nicholas chen</h1>
+                <h1>hi, my name is nicholas chen</h1>
             </div>
             <p>welcome to my personal website. here is everything from my brain dumped onto a screen.</p>
             <div className="section">
