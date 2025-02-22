@@ -6,9 +6,8 @@
 
 .center-wrapper {
     min-height: 100vh;
-    display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center; 
     padding: 20px 50px 10px 50px;
     text-align: center;
 }
@@ -63,8 +62,9 @@
     border-radius: 4px;
 }
 
+/* Center back button */
 .back-button {
-    margin: 10px;
+    margin: 10px auto; /* changed to center button horizontally */
     padding: 10px;
     background-color: #f0f0f0;
     border: none;
@@ -76,9 +76,11 @@
     margin: 20px;
 }
 
+/* Center job entries */
 .job {
     display: flex;
     align-items: center;
+    justify-content: center; /* added to center content */
     margin-bottom: 20px;
 }
 

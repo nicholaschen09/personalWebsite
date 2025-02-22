@@ -14,10 +14,8 @@
 }
 
 @font-face {
-    font-family: 'QuartzoBold';
-    src: url('./QuartzoBold-W9lv.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'BrigendsExpanded';
+    src: url('./BrigendsExpanded-nReK1.otf') format('opentype');
 }
 
 .home {
@@ -101,7 +99,7 @@ p {
     min-width: 220px;
     max-width: 300px;
     padding: 15px 20px;
-    font-family: 'QuartzoBold', sans-serif; 
+    font-family: 'BrigendsExpanded', sans-serif; 
 }
 
 .homebuttons a button:hover {
@@ -129,7 +127,7 @@ p {
     margin: 40px;
     margin-top: 20px;             
     margin-bottom: 30px;
-    font-family: 'QuartzoBold', sans-serif;
+    font-family: 'BrigendsExpanded', sans-serif;
 }
 
 .links {
