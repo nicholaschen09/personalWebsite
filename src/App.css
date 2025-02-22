@@ -178,6 +178,7 @@ h1, h2, .title, .titleabt {
   }
   .horizontal-menu li {
     margin: auto;
+    margin-bottom: -20px;
   }
   .hamburger {
     z-index: 1200;
