@@ -78,6 +78,11 @@ nav {
     font-family: 'BrigendsExpanded', sans-serif;
 }
 
+button {
+    font-family: 'BrigendsExpanded', sans-serif !important;
+    min-width: 400px !important;
+}
+
 .top-right-image {
   position: fixed;
   top: 10px;
