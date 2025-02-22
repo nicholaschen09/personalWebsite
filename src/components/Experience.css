@@ -110,8 +110,7 @@ ul {
 
 .titleabt h1 {
     text-align: center;
-    margin: -20px auto 0 auto; /* center horizontally and move title higher */
-    margin-left: 40%;
+    margin: -20px auto 0 auto; /* removed margin-left to center properly */
 }
 
 .titleabt {
@@ -128,15 +127,13 @@ ul {
 
     .job {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center; /* center job content */
     }
 
     .job-logo {
         width: 50px;
         height: 50px;
-        margin-left: 43%;
-        margin-bottom: 10px;
-
+        margin: 0 auto 10px auto; /* center the logo */
     }
 
     .job-details {

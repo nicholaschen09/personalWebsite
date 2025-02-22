@@ -13,6 +13,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'QuartzoBold';
+    src: url('/Users/nicholaschen/machine learning linear regression/my personal website/src/components/QuartzoBold-W9lv.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .home {
     text-align: center;
     padding: 0px 50px 50px 50px; /* reduced top padding: top right bottom left */
@@ -90,8 +97,11 @@ p {
     border-radius: 3px;
     text-decoration: none;
     margin: 10px;
-    width: 220px;
-    font-family: 'OneFlewOverTheCuckoosNest', sans-serif; /* updated button font */
+    width: auto;
+    min-width: 220px;
+    max-width: 300px;
+    padding: 15px 20px;
+    font-family: 'QuartzoBold', sans-serif; /* updated button font */
 }
 
 .homebuttons a button:hover {
@@ -119,7 +129,7 @@ p {
     margin: 40px;
     margin-top: 20px;             /* increased top margin */
     margin-bottom: 30px;
-    font-family: "Drukwide", sans-serif; /* updated to Drukwide font */
+    font-family: 'QuartzoBold', sans-serif; /* updated button font */
 }
 
 .links {
@@ -145,7 +155,7 @@ p {
     margin: 0;
     padding: 0; /* ensure no extra space inside the title */
     padding-bottom: 50px; /* added padding at the bottom */
-    font-family: 'Drukwide', sans-serif; /* added font to title */
+    font-family: 'HighSchoolUsaSans', sans-serif; /* updated title font */
 }
 
 .title {
@@ -156,9 +166,9 @@ p {
 /* Responsive styles */
 @media (max-width: 768px) {
     .home {
-        padding: 20px;
-        width: 100%;             /* use full viewport width */
-        box-sizing: border-box;  /* include padding in width */
+        padding: 10px;       /* reduce padding */
+        width: 100%;         /* use full viewport width */
+        margin: 0;           /* remove fixed margins */
     }
 
     .DinnerImage {
@@ -171,7 +181,7 @@ p {
     }
 
     .navbar li {
-        margin: 10px 0;
+        margin: 10px 0;      /* vertical spacing for nav items */
     }
 
     .projects-container {

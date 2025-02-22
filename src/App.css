@@ -31,6 +31,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'HighSchoolUsaSans';
+    src: url('./components/HighSchoolUsaSans-52vx.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -132,7 +139,7 @@ body {
 }
 
 h1, h2, .title, .titleabt {
-    font-family: 'Drukwide', sans-serif;
+    font-family: 'HighSchoolUsaSans', sans-serif;
 }
 
 /* Responsive styles */
