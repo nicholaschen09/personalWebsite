@@ -1,19 +1,4 @@
 @font-face {
-    font-family: 'Drukwide';
-    /* Load the new TTF font from the current folder */
-    src: url('./FuntasticMillionMoment-BYxV.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'OneFlewOverTheCuckoosNest';
-    src: url('./OneFlewOverTheCuckoosNest-vn84.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'BrigendsExpanded';
     src: url('./BrigendsExpanded-nReK1.otf') format('opentype');
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import './About.css';
-import GithubLogo from './pinkgithub.png'; 
-import LinkedinLogo from './pinklinkedin.png'; 
-import ArtWebsiteLogo from './ArtWebsiteLogo.jpg';
+import GithubLogo from '../images/pinkgithub.png'; 
+import LinkedinLogo from '../images/pinklinkedin.png'; 
+import ArtWebsiteLogo from '../images/ArtWebsiteLogo.jpg';
 
 const About = () => {
     return (

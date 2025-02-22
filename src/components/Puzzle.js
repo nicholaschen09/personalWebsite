@@ -1,18 +1,18 @@
 import React from 'react';
 import './Puzzle.css';
-import final from './final.jpg';
-import bearbody from './bearbody.png';
-import measurement from './measurement.png';
-import stomach from './stomach.png';
-import spreadpieces from './spreadpieces.png';
-import pieces1 from './pieces1.png';
-import pieces from './pieces.jpg';
-import model from './model.png';
-import model2 from './model2.png';
-import measure from './measure.png';
-import measurept2 from './measurept2.png';
-import sketch2 from './sketch2.png';
-import dome from './demo.png';
+import final from '../images/final.jpg';
+import bearbody from '../images/bearbody.png';
+import measurement from '../images/measurement.png';
+import stomach from '../images/stomach.png';
+import spreadpieces from '../images/spreadpieces.png';
+import pieces1 from '../images/pieces1.png';
+import pieces from '../images/pieces.jpg';
+import model from '../images/model.png';
+import model2 from '../images/model2.png';
+import measure from '../images/measure.png';
+import measurept2 from '../images/measurept2.png';
+import sketch2 from '../images/sketch2.png';
+import dome from '../images/demo.png';
 
 const Puzzle = () => {
     return (

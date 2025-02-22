@@ -1,6 +1,6 @@
 import React from 'react';
 import './BasketBin.css';
-import fernando from './fernando.jpg';
+import fernando from '../images/fernando.jpg';
 
 const Fernando = () => {
     return (

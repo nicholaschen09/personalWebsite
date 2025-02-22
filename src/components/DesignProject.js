@@ -1,10 +1,10 @@
 import React from 'react';
 import './DesignProject.css';
-import domeImage from './domeImage.jpg';
-import mirrorsImage from './mirror.png';
-import cardboard from './cardboard.jpg';
-import rice from './rice.png';
-import domesketch from './domesketch.png';
+import domeImage from '../images/domeImage.jpg';
+import mirrorsImage from '../images/mirror.png';
+import cardboard from '../images/cardboard.jpg';
+import rice from '../images/rice.png';
+import domesketch from '../images/domesketch.png';
 
 const DesignProject = () => {
     const handleGoBack = () => {

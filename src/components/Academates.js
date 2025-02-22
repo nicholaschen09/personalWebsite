@@ -1,8 +1,8 @@
 import React from 'react';
-import original from './original.png';
-import original2 from './original2.png';
-import original3 from './original3.png';
-import original4 from './original4.png';
+import original from '../images/original.png';
+import original2 from '../images/original2.png';
+import original3 from '../images/original3.png';
+import original4 from '../images/original4.png';
 
 const Academates = () => {
     return (

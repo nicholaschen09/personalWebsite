@@ -1,8 +1,8 @@
 import React from 'react';
 import './Photography.css';
-import pic1 from './DSCN3832 2.JPG';
-import pic2 from './DSCN4095.JPG';
-import pic3 from './DSCN4514 2.jpg';
+import pic1 from '../images/DSCN3832 2.JPG';
+import pic2 from '../images/DSCN4095.JPG';
+import pic3 from '../images/DSCN4514 2.jpg';
 
 const Photography = () => {
     const images = [

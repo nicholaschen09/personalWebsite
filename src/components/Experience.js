@@ -1,8 +1,8 @@
 import React from 'react';
 import './Experience.css';
-import OwnrLogo from './ownr.jpeg';
-import RBCLogo from './images.png';
-import MetaHashCapitalLogo from './metahashcapital.jpeg';
+import OwnrLogo from '../images/ownr.jpeg';
+import RBCLogo from '../images/RBCx.png';
+import MetaHashCapitalLogo from '../images/metahashcapital.jpeg';
 
 const Experience = () => {
     const experiences = [
@@ -17,7 +17,7 @@ const Experience = () => {
 
         {
             role: "Innovation Developer Intern",
-            company: "RBC (Internship)",
+            company: "Royal Bank of Canada (Internship)",
             duration: "Jul 2024 – Aug 2024 (2 mos)",
             location: "Toronto, Ontario, Canada (Hybrid)",
             description: "Built a machine learning model using linear regression for better resource allocation within the technology support team",

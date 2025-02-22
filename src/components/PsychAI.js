@@ -1,7 +1,7 @@
 import React from 'react';
 import './PsychAI.css';
-import original5 from './original5.png';
-import original6 from './original6.png';
+import original5 from '../images/original5.png';
+import original6 from '../images/original6.png';
 
 const PsychAI = () => {
     return (

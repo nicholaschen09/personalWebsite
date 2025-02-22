@@ -5,9 +5,9 @@ import Blog from './Blog';
 import About from './About';
 import Projects from './Projects';
 import Experience from './Experience';
-import GithubLogo from './pinkgithub.png';
-import LinkedinLogo from './pinklinkedin.png';
-import WebsiteLogo from './NC-4.png';
+import GithubLogo from '../images/pinkgithub.png';
+import LinkedinLogo from '../images/pinklinkedin.png';
+import WebsiteLogo from '../images/NC-4.png';
 
 const Home = () => {
     return (

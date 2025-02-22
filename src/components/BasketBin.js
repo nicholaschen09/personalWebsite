@@ -1,14 +1,14 @@
 import React from 'react';
 import './BasketBin.css';
-import h66 from './h66.JPG';
-import h65 from './h65.JPG';
-import h64 from './h64.JPG';
-import h63 from './h63.jpg';
-import h62 from './h62.JPG';
-import h6 from './h6.JPG';
-import screen1 from './screen1.PNG';
-import screen2 from './screen2.PNG';
-import screen3 from './screen3.PNG';
+import h66 from '../images/h66.JPG';
+import h65 from '../images/h65.JPG';
+import h64 from '../images/h64.JPG';
+import h63 from '../images/h63.jpg';
+import h62 from '../images/h62.JPG';
+import h6 from '../images/h6.JPG';
+import screen1 from '../images/screen1.PNG';
+import screen2 from '../images/screen2.PNG';
+import screen3 from '../images/screen3.PNG';
 
 const BasketBin = () => {
     return (

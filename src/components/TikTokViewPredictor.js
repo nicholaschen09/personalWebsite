@@ -1,25 +1,25 @@
 import React from 'react';
 import './TikTokViewPredictor.css';
-import csv from './csv.png';
-import code1 from './code1.png';
-import code2 from './code2.png';
-import code3 from './code3.png';
-import code4 from './code4.png';
-import code5 from './code5.png';
-import code6 from './code6.png';
-import code7 from './code7.png';
-import code8 from './code8.png';
-import code9 from './code9.png';
-import output1 from './output1.png';
-import output2 from './output2.png';
-import output3 from './output3.png';
-import output41 from './output41.png';
-import output42 from './output42.png';
-import output5 from './output5.png';
-import output6 from './output6.png';
-import output7 from './output7.png';
-import output8 from './output8.png';
-import output9 from './output9.png';
+import csv from '../images/csv.png';
+import code1 from '../images/code1.png';
+import code2 from '../images/code2.png';
+import code3 from '../images/code3.png';
+import code4 from '../images/code4.png';
+import code5 from '../images/code5.png';
+import code6 from '../images/code6.png';
+import code7 from '../images/code7.png';
+import code8 from '../images/code8.png';
+import code9 from '../images/code9.png';
+import output1 from '../images/output1.png';
+import output2 from '../images/output2.png';
+import output3 from '../images/output3.png';
+import output41 from '../images/output41.png';
+import output42 from '../images/output42.png';
+import output5 from '../images/output5.png';
+import output6 from '../images/output6.png';
+import output7 from '../images/output7.png';
+import output8 from '../images/output8.png';
+import output9 from '../images/output9.png';
 
 const TikTokViewPredictor = () => {
     return (
