@@ -19,6 +19,7 @@ import NC from './components/NC-4.png';
 import PsychAI from './components/PsychAI.js';
 import Experience from './components/Experience.js';
 import Blog1 from './components/Blog1.js';
+import Fernando from './components/Fernando.js';
 import './App.css';
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
           <Route path="/projects/engineering/designproject" element={<DesignProject />} />
           <Route path="/projects/engineering/psychai" element={<PsychAI />} />
           <Route path="/blog/blog1" element={<Blog1 />} />
+          <Route path="/projects/engineering/fernando" element={<Fernando />} />
         </Routes>
       </div>
     </Router>

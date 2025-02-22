@@ -7,7 +7,9 @@ import Solidworks from './Solidworks';
 import Puzzle from './Puzzle';
 import DesignProject from './DesignProject.js';
 import PsychAI from './PsychAI.js';
+import Fernando from './Fernando.js';
 import './Engineering.css';
+
 
 const Engineering = () => {
     return (
@@ -21,6 +23,7 @@ const Engineering = () => {
                 <Link to="puzzle"><button>Puzzle Project</button></Link>
                 <Link to="designproject"><button>Design Project</button></Link>
                 <Link to="psychai"><button>Psych AI</button></Link>
+                <Link to="fernando"><button>Fernando</button></Link>
             <Routes>
                 <Route path="basketbin" element={<BasketBin />} />
                 <Route path="academates" element={<Academates />} />
@@ -29,6 +32,7 @@ const Engineering = () => {
                 <Route path="puzzle" element={<Puzzle />} />
                 <Route path="designproject" element={<DesignProject />} />
                 <Route path="psychai" element={<PsychAI />} />
+                <Route path="fernando" element={<Fernando />} />
             </Routes>
         </div>
     );
