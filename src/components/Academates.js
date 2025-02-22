@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Academates.css';
 import original from './original.png';
 import original2 from './original2.png';
 import original3 from './original3.png';

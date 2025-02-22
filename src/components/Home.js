@@ -11,7 +11,7 @@ import LinkedinLogo from './pinklinkedin.png';
 import WebsiteLogo from './NC-4.png';
 
 const Home = () => {
-    const [showNav, setShowNav] = useState(false);
+    const [setShowNav] = useState(false);
     const toggleNav = () => setShowNav(prev => !prev);
 
     return (
