@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'BrigendsExpanded';
+    src: url('./BrigendsExpanded-nReK1.otf') format('opentype');
+}
+
 .project-info {
     background-color: #ffffff;
     border-radius: 8px;
@@ -19,6 +24,14 @@
 .project-info p {
     color: #FF0090;
     line-height: 1.6;
+}
+
+.titleacamdemates {
+    font-family: 'BrigendsExpanded', sans-serif;
+}
+
+.titleacamdemates h1 {
+    font-family: 'BrigendsExpanded', sans-serif !important;
 }
 
 .academates {

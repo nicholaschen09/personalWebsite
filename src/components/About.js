@@ -15,7 +15,7 @@ const About = () => {
                 Back
             </button>
             <div className="about">
-                <h1 className="titleabt">about me</h1>
+                <h1 className="titleabout">about me</h1>
                 <div className="about-content">
                     <p>hi, i'm nic!</p>
                     <p>i'm studying systems design engineering at the university of waterloo.</p>

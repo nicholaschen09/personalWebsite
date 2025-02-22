@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'BrigendsExpanded';
+    src: url('./BrigendsExpanded-nReK1.otf') format('opentype');
+}
+
 .engineering {
     text-align: center;
     padding: 30px;
@@ -41,6 +46,10 @@
 .engineering button:hover {
     background-color: #ff0090bb;
     color: #fff;
+}
+
+.engineering h1 {
+    font-family: 'BrigendsExpanded', sans-serif !important;
 }
 
 /* Responsive styles */

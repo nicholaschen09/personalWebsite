@@ -11,7 +11,7 @@ const Experience = () => {
 
     const experiences = [
         {
-            role: "Software Developer Intern",
+            role: "Software Engineer Intern",
             company: "Ownr (RBCx) (Co-op)",
             duration: "Jan 2025 – Present (1 mo)",
             location: "Toronto, Ontario, Canada (Hybrid)",
@@ -45,7 +45,7 @@ const Experience = () => {
                 <button className="back-button" onClick={handleGoBack}>
                     Back
                 </button>
-                <div className="experience">
+                <div className="experience1">
                     <div className="titleabt">
                         <h1>my experience</h1>
                         </div>

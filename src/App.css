@@ -2,41 +2,6 @@
     --pink-color: #ff0392;
 }
 
-@font-face {
-  font-family: 'NextSphereBold';
-  src: url('./components/NextSphereBold-2v7xd.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'HughesDisplay';
-  src: url('./.history/components/HughesDisplayDemoRegular-51paZ.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'EightTrack';
-  src: url('./components/EightTrack-rvm8.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-    font-family: 'Drukwide';
-    src: url('./components/FuntasticMillionMoment-BYxV.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'HighSchoolUsaSans';
-    src: url('./components/HighSchoolUsaSans-52vx.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .App {
   text-align: center;
 }
@@ -106,6 +71,11 @@ nav {
 
 .horizontal-menu li a:hover {
   text-decoration: underline;
+}
+
+/* Nav bar font override */
+.horizontal-menu, .horizontal-menu li, .horizontal-menu li a {
+    font-family: 'BrigendsExpanded', sans-serif;
 }
 
 .top-right-image {

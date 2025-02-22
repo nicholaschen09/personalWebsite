@@ -1,4 +1,8 @@
-/* src/components//Home.css */
+@font-face {
+    font-family: 'BrigendsExpanded';
+    src: url('./BrigendsExpanded-nReK1.otf') format('opentype');
+}
+
 .projects {
     text-align: center;
     padding: 20px;
@@ -19,6 +23,14 @@
     transition: background-color 0.3s, color 0.3s;
     border-radius: 5px;
     margin: 5px;
+}
+
+.projecttitle {
+    font-family: 'BrigendsExpanded', sans-serif;
+}
+
+.projecttitle h1 {
+    font-family: 'BrigendsExpanded', sans-serif !important;
 }
 
 .projects button:hover {

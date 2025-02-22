@@ -18,6 +18,11 @@
     src: url('./BrigendsExpanded-nReK1.otf') format('opentype');
 }
 
+/* Global header font override */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'BrigendsExpanded', sans-serif !important;
+}
+
 .home {
     text-align: center;
     padding: 0px 50px 50px 50px; 
@@ -38,6 +43,11 @@ p {
     margin: 0;
     background-color: #fff;
     margin-bottom: 0; 
+}
+
+/* Nav bar font override */
+.navbar, .navbar li, .navbar a {
+    font-family: 'BrigendsExpanded', sans-serif;
 }
 
 .navbar li {
@@ -111,7 +121,7 @@ p {
     font-size: 30px;       
     padding: 20px 40px;        
     margin-bottom: 30px;        
-    font-family: "Drukwide", sans-serif; 
+    font-family: 'BrigendsExpanded', sans-serif; 
 }
 
 .links button {
@@ -155,7 +165,7 @@ p {
     margin: 0;
     padding: 0;
     padding-bottom: 50px;
-    font-family: 'HighSchoolUsaSans', sans-serif; 
+    font-family: 'BrigendsExpanded', sans-serif; 
 }
 
 .title {

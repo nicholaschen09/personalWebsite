@@ -14,7 +14,9 @@ const Academates = () => {
                 Back
             </button>
             <div className="academates">
-                <h1>Academates</h1>
+                <div className="titleacamdemates">
+                    <h1>academates</h1>
+                </div>
                 <div className="content">
                     <p>Welcome to the Academates project page. This is where you'll find information about our innovative school and homework help app.</p>
 

@@ -11,8 +11,9 @@ const Projects = () => {
             Back
         </button>
             <div className="projects">
-
-                <h1>personal projects </h1>
+                <div className="projecttitle">
+                    <h1>personal projects </h1>
+                </div>
                 <p>here is a collection of all my projects.</p>
 
                 <Link to="/projects/engineering"><button>engineering</button></Link>

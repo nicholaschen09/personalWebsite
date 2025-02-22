@@ -1,10 +1,7 @@
 @font-face {
-    font-family: 'Drukwide';
-    src: url('./FuntasticMillionMoment-BYxV.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'BrigendsExpanded';
+    src: url('./BrigendsExpanded-nReK1.otf') format('opentype');
 }
-
 .about {
     text-align: center;
     padding: 10px;
@@ -13,7 +10,6 @@
     padding: 50px 150px 10px 150px;
     width: 1000px;
     margin-bottom: 100px;
-    /* Increased width */
 }
 
 /* Responsive styles */
@@ -44,7 +40,11 @@
     margin: 0;
     padding: 0;
     padding-bottom: 50px;
-    font-family: 'Drukwide', sans-serif;
+    font-family: 'BrigendsExpanded', sans-serif;
+}
+
+.titleabout {
+    font-family: 'BrigendsExpanded', sans-serif !important;
 }
 
 .profilePic {
@@ -97,7 +97,6 @@
     margin-top: 20px;
     border-radius: 5px;
 }
-
 
 .about h3 {
     font-size: 14px;
