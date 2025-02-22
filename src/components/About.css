@@ -7,9 +7,7 @@
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px 150px 10px 150px;
     width: 1000px;
-    margin-bottom: 100px;
 }
 
 /* Responsive styles */
@@ -37,14 +35,13 @@
 
 .titleabt {
     padding: 0px;
-    margin: 0;
-    padding: 0;
     padding-bottom: 50px;
     font-family: 'BrigendsExpanded', sans-serif;
 }
 
 .titleabout {
     font-family: 'BrigendsExpanded', sans-serif !important;
+    margin-top: -60px !important;
 }
 
 .profilePic {
