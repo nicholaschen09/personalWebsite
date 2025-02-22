@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .home {
     text-align: center;
-    padding: 0px 50px 50px 50px; 
+    margin-top: -60px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +30,6 @@ p {
     margin-bottom: 0; 
 }
 
-/* Nav bar font override */
 .navbar, .navbar li, .navbar a {
     font-family: 'BrigendsExpanded', sans-serif;
 }
