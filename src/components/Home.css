@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: 'QuartzoBold';
-    src: url('/Users/nicholaschen/machine learning linear regression/my personal website/src/components/QuartzoBold-W9lv.ttf') format('truetype');
+    src: url('./QuartzoBold-W9lv.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
