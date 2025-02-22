@@ -1,5 +1,5 @@
 :root {
-    --pink-color: #ff0392; /* define your consistent pink colour */
+    --pink-color: #ff0392;
 }
 
 @font-face {
@@ -9,7 +9,6 @@
   font-style: normal;
 }
 
-/* General styles */
 @font-face {
   font-family: 'HughesDisplay';
   src: url('./.history/components/HughesDisplayDemoRegular-51paZ.ttf') format('truetype');
@@ -57,7 +56,7 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -69,41 +68,40 @@
 }
 
 body {
-  color: var(--pink-color); /* use the variable for text colour */
+  color: var(--pink-color);
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+nav {
+  text-align: center;
 }
 
 .horizontal-menu {
   list-style-type: none;
-  margin: 10;
-  padding: 10;
-  display: flex;
+  margin: 0 auto;          /* changed from margin-left: 40px */
+  padding: 10px;
+  margin-bottom: 80px;
+  display: inline-flex;    /* ensures the menu only takes the width of its content */
   justify-content: center;
   align-items: center;
-  z-index: 1000;
 }
 
 .horizontal-menu li {
-  margin: 10 20px;
+  margin: 10px 20px;       /* adjusted spacing for a row layout */
   justify-content: center;
 }
 
 .horizontal-menu li a {
   text-decoration: none;
-  color: var(--pink-color); /* updated to use the variable */
+  color: var(--pink-color);
   font-size: 16px;
-  padding: 20px;
+  padding: 10px;
   justify-content: center;
-  font-family: 'NextSphereBold', sans-serif; /* updated nav bar font */
+  font-family: 'NextSphereBold', sans-serif;
 }
 
 .horizontal-menu li a:hover {
@@ -120,16 +118,15 @@ body {
 }
 
 .back-button {
-  font-family: 'EightTrack', sans-serif; /* updated back button font */
+  font-family: 'EightTrack', sans-serif;
   width: 100%;
   margin: 5px 0;
   max-width: 100px;
-  padding: 10px;               /* added padding for better spacing */
-  border: none;                /* remove default border */
-  background: transparent;     /* ensure background is transparent or set as needed */
-  cursor: pointer;             /* show pointer cursor on hover */
-  text-align: center;          /* center the button text */
-  /* ...existing styles if any... */
+  padding: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: center;
 }
 
 .projects-container,
@@ -142,35 +139,58 @@ h1, h2, .title, .titleabt {
     font-family: 'HighSchoolUsaSans', sans-serif;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .App-logo {
     height: 30vmin;
   }
-
   .App-header {
     font-size: calc(8px + 2vmin);
     padding: 20px;
   }
-
   .horizontal-menu {
     flex-direction: row;
-    padding: 40px;
-    padding-left: 30px;
-    padding-right: 50px;
+    padding: 40px 50px 40px 30px;
   }
-
   .horizontal-menu li {
     margin: 10px 0;
   }
-
   .horizontal-menu li a {
     padding: 10px;
     font-size: 16px;
-
   }
-
   .top-right-image {
     width: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .horizontal-menu {
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 0;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .horizontal-menu.active {
+    display: flex;
+  }
+  .horizontal-menu li {
+    margin: auto;
+  }
+  .hamburger {
+    z-index: 1200;
+    pointer-events: auto;
+  }
+  .horizontal-menu {
+    z-index: 1100;
+    pointer-events: auto;
+  }
+}
+
+@media (min-width: 426px) {
+  .horizontal-menu {
+    flex-direction: row;
   }
 }

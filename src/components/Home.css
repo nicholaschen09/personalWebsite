@@ -148,6 +148,8 @@ p {
 .home p {
     font-size: 14px;
     padding: 0px;
+    max-width: 600px; /* restrict text width */
+    margin: 0 auto;   /* center the text */
 }
 
 .title h1 {
@@ -159,8 +161,8 @@ p {
 }
 
 .title {
-    margin-top: 5px; /* reduced space between nav bar and title */
-    margin: 0; /* remove extra top space */
+    margin-top: -10px; /* further reduce space between nav bar and title */
+    margin-bottom: 0;
 }
 
 /* Responsive styles */
@@ -214,5 +216,62 @@ p {
     .large-button {
         width: 100%;
         padding: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .home {
+        width: 100%;         /* use full viewport width */
+        padding: 0 10px;     /* reduce side padding */
+        margin: 0 auto;
+    }
+    .navbar {
+        flex-direction: column;  /* stack nav items */
+    }
+    .navbar li {
+        margin: 5px 0;
+    }
+    .homebuttons a button,
+    .links button {
+        font-size: 14px;         /* adjust button font size if needed */
+    }
+    .title h1 {
+        font-size: 80px;  /* adjust this value as needed */
+    }
+    .home p {
+        font-size: 12px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        width: 75%;
+    }
+    .section {
+        margin: 10px 0;
+        padding: 5px;
+    }
+}
+
+/* Mobile drop-down nav styles */
+.hamburger {
+    display: none;
+}
+@media (max-width: 425px) {
+    .hamburger {
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        z-index: 1100;
+        /* style hamburger lines as desired */
+    }
+    .navbar {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+    }
+    .navbar.active {
+        display: flex;
     }
 }
