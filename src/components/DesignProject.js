@@ -1,7 +1,7 @@
 import React from 'react';
 import './DesignProject.css';
-import domeImage from './domeImage.jpg'; // Example local image import
-import mirrorsImage from './mirror.png'; // Example local image import
+import domeImage from './domeImage.jpg';
+import mirrorsImage from './mirror.png';
 import cardboard from './cardboard.jpg';
 import rice from './rice.png';
 import domesketch from './domesketch.png';

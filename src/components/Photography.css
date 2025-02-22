@@ -24,11 +24,8 @@
 
 .image-container img {
     width: 100%;
-    /* Adjust the width as needed */
     max-width: 600px;
-    /* Optional: set a maximum width */
     height: auto;
-    /* Maintain aspect ratio */
 }
 
 .photography {
@@ -53,9 +50,6 @@
 
 .image-container img {
     width: 100%;
-    /* Adjust the width as needed */
     max-width: 600px;
-    /* Optional: set a maximum width */
     height: auto;
-    /* Maintain aspect ratio */
 }

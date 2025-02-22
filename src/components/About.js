@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
-import GithubLogo from './pinkgithub.png'; // updated logo path
-import LinkedinLogo from './pinklinkedin.png'; // updated logo path
+import GithubLogo from './pinkgithub.png'; 
+import LinkedinLogo from './pinklinkedin.png'; 
 import ArtWebsiteLogo from './ArtWebsiteLogo.jpg';
 
 const About = () => {

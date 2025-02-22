@@ -8,7 +8,6 @@
 }
 
 .blog-button {
-    /* Add your styles for the blog button here */
     border: none;
     padding: 10px 20px;
     text-align: center;
@@ -26,10 +25,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    /* Vertically layout buttons */
     align-items: center;
-    /* Center buttons horizontally */
-
 }
 
 /* Responsive styles */

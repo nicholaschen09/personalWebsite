@@ -13,7 +13,6 @@ const Photography = () => {
         pic1,
         pic2,
         pic3,
-        // Add more imported image paths here
     ];
 
     return (

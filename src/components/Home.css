@@ -22,7 +22,7 @@
 
 .home {
     text-align: center;
-    padding: 0px 50px 50px 50px; /* reduced top padding: top right bottom left */
+    padding: 0px 50px 50px 50px; 
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +39,7 @@ p {
     padding: 0;
     margin: 0;
     background-color: #fff;
-    margin-bottom: 0; /* remove nav bar bottom margin */
+    margin-bottom: 0; 
 }
 
 .navbar li {
@@ -90,7 +90,7 @@ p {
     border: 1px solid rgba(255, 0, 144, 0.733);
     padding-top: 25px;
     background-color: #ffffff;
-    color: rgba(255, 0, 144, 0.733); /* use a single color value */
+    color: rgba(255, 0, 144, 0.733);
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.3s, color 0.3s;
@@ -101,7 +101,7 @@ p {
     min-width: 220px;
     max-width: 300px;
     padding: 15px 20px;
-    font-family: 'QuartzoBold', sans-serif; /* updated button font */
+    font-family: 'QuartzoBold', sans-serif; 
 }
 
 .homebuttons a button:hover {
@@ -110,37 +110,37 @@ p {
 }
 
 .large-button {
-    font-size: 30px;              /* increased font size */
-    padding: 20px 40px;           /* increased padding */
-    margin-bottom: 30px;          /* increased bottom margin */
-    font-family: "Drukwide", sans-serif; /* updated to Drukwide font */
+    font-size: 30px;       
+    padding: 20px 40px;        
+    margin-bottom: 30px;        
+    font-family: "Drukwide", sans-serif; 
 }
 
 .links button {
     border: 1px solid rgba(255, 0, 144, 0.733);
-    padding: 15px 60px;           /* increased padding */
+    padding: 15px 60px;      
     background-color: #ffffff;
     color: #000000;
     cursor: pointer;
-    font-size: 18px;              /* increased font size */
+    font-size: 18px;       
     transition: background-color 0.3s, color 0.3s;
     border-radius: 3px;
     text-decoration: none;
     margin: 40px;
-    margin-top: 20px;             /* increased top margin */
+    margin-top: 20px;             
     margin-bottom: 30px;
-    font-family: 'QuartzoBold', sans-serif; /* updated button font */
+    font-family: 'QuartzoBold', sans-serif;
 }
 
 .links {
     display: flex;
-    gap: 20px; /* increased spacing between icons */
-    justify-content: center; /* centers the icons */
+    gap: 20px; 
+    justify-content: center; 
 }
 
 .links a img {
-    width: 45px !important;    /* increased size with override */
-    height: 45px !important;   /* increased size with override */
+    width: 45px !important;   
+    height: 45px !important;  
     border-radius: 10%; 
     transition: transform 0.3s;
 }
@@ -148,29 +148,29 @@ p {
 .home p {
     font-size: 14px;
     padding: 0px;
-    max-width: 600px; /* restrict text width */
-    margin: 0 auto;   /* center the text */
+    max-width: 600px; 
+    margin: 0 auto; 
 }
 
 .title h1 {
-    padding: 0px; /* reduced padding for the title */
+    padding: 0px;
     margin: 0;
-    padding: 0; /* ensure no extra space inside the title */
-    padding-bottom: 50px; /* added padding at the bottom */
-    font-family: 'HighSchoolUsaSans', sans-serif; /* updated title font */
+    padding: 0;
+    padding-bottom: 50px;
+    font-family: 'HighSchoolUsaSans', sans-serif; 
 }
 
 .title {
-    margin-top: -10px; /* further reduce space between nav bar and title */
+    margin-top: -10px; 
     margin-bottom: 0;
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
     .home {
-        padding: 10px;       /* reduce padding */
-        width: 100%;         /* use full viewport width */
-        margin: 0;           /* remove fixed margins */
+        padding: 10px;      
+        width: 100%;     
+        margin: 0;         
     }
 
     .DinnerImage {
@@ -183,7 +183,7 @@ p {
     }
 
     .navbar li {
-        margin: 10px 0;      /* vertical spacing for nav items */
+        margin: 10px 0;   
     }
 
     .projects-container {
@@ -195,15 +195,15 @@ p {
     .homebuttons a button,
     .links button {
         width: 100%;
-        padding: 10px;            /* reduced padding for buttons */
-        font-size: 12px;          /* smaller font size for buttons */
+        padding: 10px;            
+        font-size: 12px;   
         margin: 10px 0;
     }
 
     .large-button {
         width: 100%;
-        padding: 10px;            /* adjust padding for large button */
-        font-size: 14px;          /* smaller font size for large button */
+        padding: 10px;        
+        font-size: 14px;         
     }
 
     .homebuttons a button,
@@ -221,22 +221,22 @@ p {
 
 @media (max-width: 425px) {
     .home {
-        width: 100%;         /* use full viewport width */
-        padding: 0 10px;     /* reduce side padding */
+        width: 100%;    
+        padding: 0 10px;     
         margin: 0 auto;
     }
     .navbar {
-        flex-direction: column;  /* stack nav items */
+        flex-direction: column;  
     }
     .navbar li {
         margin: 5px 0;
     }
     .homebuttons a button,
     .links button {
-        font-size: 14px;         /* adjust button font size if needed */
+        font-size: 14px;        
     }
     .title h1 {
-        font-size: 80px;  /* adjust this value as needed */
+        font-size: 80px; 
     }
     .home p {
         font-size: 12px;
@@ -250,7 +250,6 @@ p {
     }
 }
 
-/* Mobile drop-down nav styles */
 .hamburger {
     display: none;
 }
@@ -262,7 +261,6 @@ p {
         right: 10px;
         cursor: pointer;
         z-index: 1100;
-        /* style hamburger lines as desired */
     }
     .navbar {
         flex-direction: column;

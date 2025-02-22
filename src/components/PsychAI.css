@@ -6,7 +6,6 @@
 
 .center-wrapper {
     min-height: 100vh;
-    /* Minimum height is full viewport height */
     display: flex;
     justify-content: center;
     align-items: flex-start;

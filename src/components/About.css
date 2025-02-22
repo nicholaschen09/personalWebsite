@@ -1,6 +1,5 @@
 @font-face {
     font-family: 'Drukwide';
-    /* Load the new TTF font from the current folder */
     src: url('./FuntasticMillionMoment-BYxV.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -42,14 +41,10 @@
 
 .titleabt {
     padding: 0px;
-    /* reduced padding for the title */
     margin: 0;
     padding: 0;
-    /* ensure no extra space inside the title */
     padding-bottom: 50px;
-    /* added padding at the bottom */
     font-family: 'Drukwide', sans-serif;
-    /* added font to title */
 }
 
 .profilePic {
@@ -67,7 +62,6 @@
     text-align: center;
     margin-top: 20px;
     width: 96%;
-    /* Ensure it takes full width of the parent */
 }
 
 .social-links {
@@ -93,10 +87,8 @@
     margin-top: 20px;
     border-radius: 5px;
     width: 86%;
-    /* Adjust width as needed */
     margin-left: auto;
     margin-right: auto;
-    /* Center the experience box */
 }
 
 .bordered-section {
@@ -109,25 +101,19 @@
 
 .about h3 {
     font-size: 14px;
-    /* Adjust the heading sizes as needed */
 }
 
 ul {
     list-style-type: none;
-    /* Remove bullet points */
     padding-left: 0;
-    /* Remove default padding */
 }
 
 .about p,
 .about ul {
     font-size: 14px;
-    /* Adjust the paragraph and list sizes as needed */
 }
 
 .social-icon {
     width: 24px;
-    /* Adjust the icon size as needed */
     height: 24px;
-    /* Adjust the icon size as needed */
 }

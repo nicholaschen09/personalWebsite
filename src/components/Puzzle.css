@@ -6,7 +6,6 @@
 
 .center-wrapper {
     min-height: 100vh;
-    /* Minimum height is full viewport height */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -16,7 +15,6 @@
 .puzzle {
     width: 100%;
     max-width: 1200px;
-    /* Set a max-width to ensure readability */
 }
 
 .project-info h2 {

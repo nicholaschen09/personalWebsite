@@ -16,11 +16,8 @@
     color: rgba(255, 0, 144, 0.733);
     position: fixed;
     top: 40px;
-    /* Adjust this value to set the vertical position */
     left: 1px;
-    /* Adjust this value to set the horizontal position */
     z-index: 500;
-    /* Ensure it is above other elements */
 }
 
 .back-button:hover {

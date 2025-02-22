@@ -4,10 +4,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    /* Vertically layout buttons */
     align-items: center;
-    /* Center buttons horizontally */
-
 }
 
 .projects button {
@@ -33,10 +30,9 @@
     font-size: 14px;
 }
 
-/* Adjust the title spacing on the personal projects page */
 .projects h1 {
     text-align: center;
-    margin-top: 10px; /* reduced margin to bring title closer to nav bar */
+    margin-top: 10px; 
 }
 
 /* Responsive styles */
