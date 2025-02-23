@@ -10,7 +10,7 @@ const VolunTrack = () => {
     return (
         <div className="center-wrapper">
             <div className="voluntrack">
-                <h1>VolunTrack</h1>
+                <h1 style={{ marginTop: '-100px' }}>VolunTrack</h1>
                 <div className="content">
                     <p>Welcome to the VolunTrack project page. This is where you'll find information about our innovative volunteer management solution.</p>
 
