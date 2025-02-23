@@ -14,7 +14,7 @@ const Photography = () => {
     return (
         <div>
             <div className="photography">
-                <h1>photography</h1>
+                <h1 style={{ marginTop: '-70px' }}>Photography</h1>
                 <div className="content">
                     <p>all my photography stuff</p>
                     <div className="image-gallery">

@@ -7,8 +7,8 @@ const Miscellaneous = () => {
     return (
         <div className="miscellaneous">
             <div className="engineering">
-                <h1>miscellaneous projects </h1>
-                <p>all my random projects.</p>
+                <h1 style={{ marginTop: '50px' }}>miscellaneous projects</h1>
+                <p style={{ fontSize: '0.3em' }}>all my random projects.</p>
                 <Link to="photography">
                     <button className="photography-button">photography</button>
                 </Link>
