@@ -7,7 +7,7 @@ const Design = () => {
     return (
         <div className="design">
             <h1>design projects</h1>
-            <p>all my artistic and creative projects.</p>
+            <p style={{ fontSize: '0.3em' }}>all my artistic and creative projects.</p>
                 <Link to="voluntrack">
                     <button className="voluntrack-button">voluntrack</button>
                 </Link>
