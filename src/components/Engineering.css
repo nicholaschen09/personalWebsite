@@ -6,7 +6,7 @@
 .engineering {
     text-align: center;
     padding: 30px;
-    color: rgba(255, 0, 144, 0.733);
+    color: rgb(255, 0, 144);
 }
 
 .projects-container {
@@ -29,7 +29,7 @@
     transition: background-color 0.3s, color 0.3s;
     border-radius: 5px;
     margin: 5px;
-    color: rgba(255, 0, 144, 0.733);
+    color: rgb(255, 0, 144);
     width: 250px;
     display: inline-block;
     text-align: center;

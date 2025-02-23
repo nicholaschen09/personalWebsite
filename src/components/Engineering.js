@@ -15,7 +15,7 @@ const Engineering = () => {
     return (
             <div className="engineering">
                 <h1>engineering projects</h1>
-                <p>All my school/side projects</p>
+                <p style={{ fontSize: '0.3em' }}>All my school/side projects</p>
                 <Link to="basketbin"><button>BasketBin</button></Link>
                 <Link to="academates"><button>Academates</button></Link>
                 <Link to="tiktokviewpredictor"><button>TikTok View Predictor</button></Link>
