@@ -48,7 +48,7 @@ const Fernando = () => {
                     <p>Watch a demonstration video of the Posture Checker Robot in action:</p>
                     <div className="video-wrapper">
                         <iframe
-                            src="https://www.youtube.com/embed/your_video_id"
+                            src="https://www.youtube.com/embed/EBsmGGOubCk"
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
