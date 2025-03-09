@@ -1,7 +1,7 @@
 import React from 'react';
 import './Experience.css';
 import OwnrLogo from '../images/ownr.jpeg';
-import RBCLogo from '../images/RBCx.png';
+import RBCLogo from '../images/rbc.png';
 import MetaHashCapitalLogo from '../images/metahashcapital.jpeg';
 
 const Experience = () => {
