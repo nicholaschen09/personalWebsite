@@ -3,6 +3,7 @@ import './About.css';
 import GithubLogo from '../images/pinkgithub.png';
 import LinkedinLogo from '../images/pinklinkedin.png';
 import ArtWebsiteLogo from '../images/ArtWebsiteLogo.jpg';
+import uw from '../images/uw.png';
 
 const About = () => {
   return (
@@ -51,6 +52,11 @@ const About = () => {
         <div className="education">
           <h2>education</h2>
           <h3 style={{ fontSize: '0.5em' }}>University of Waterloo</h3>
+          <img
+            src={uw}
+            alt="University of Waterloo"
+            style={{ width: '80px', display: 'block', marginTop: '5px', marginBottom: '25px', marginLeft: 'auto', marginRight: 'auto' }}
+/>
           <p
             style={{
               fontSize: '0.25em',
@@ -71,8 +77,8 @@ const About = () => {
             <strong>Languages:</strong> Python, Java, C++, HTML/CSS, JavaScript, TypeScript, Kotlin, SQL, MATLAB
           </p>
           <p>
-            <strong>Developer Tools:</strong> VS Code, Eclipse, IntelliJ, Android Studio, Postico, Jupyter Notebook, Git, GitHub,  <br /><br />4Docker, Heroku,
-            Jira, Confluence, AWS, CircleCI, Bash, Zsh
+            <strong>Developer Tools:</strong> VS Code, Eclipse, IntelliJ, Android Studio, Postico, Jupyter Notebook, Git, GitHub, <br /><br />
+            Docker, Heroku, Jira, Confluence, AWS, CircleCI, Bash, Zsh
           </p>
           <p>
             <strong>Technologies/Frameworks:</strong> React, React Native, Node.js, Express.js, Nest.js, Supabase, Firebase, Flask, PostgreSQL, <br /><br />

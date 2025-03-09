@@ -44,6 +44,12 @@
     margin-top: -60px !important;
 }
 
+.img {
+    width: 80px;
+    display: block;
+    margin: 5px auto;
+}
+
 .profilePic {
     width: 200px;
     height: 200px;
