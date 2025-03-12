@@ -24,11 +24,11 @@ import './App.css';
 
 function App() {
   const linkStyle = {
-    color: 'rgba(255, 0, 144, 0.733)',
+    color: 'rgb(255, 0, 93)',
   };
   return (
     <Router>
-      <div>
+     <div className="App" style={{ backgroundImage: 'radial-gradient(circle, rgba(0, 0, 0, 0.1) 1.x, transparent 1px)' }}>
         <img src={NC} alt="NC" className="top-right-image" />
         <nav>
           <ul className="horizontal-menu">
